@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Senthil\\Interview_Sample\\CodingPractice\\CodingPractice\\CodingPractice.csproj",
+      "projectUniqueName": "C:\\Senthil\\Interview_Sample\\coding_interview\\CodingPractice\\CodingPractice\\CodingPractice.csproj",
       "projectName": "CodingPractice",
-      "projectPath": "C:\\Senthil\\Interview_Sample\\CodingPractice\\CodingPractice\\CodingPractice.csproj",
+      "projectPath": "C:\\Senthil\\Interview_Sample\\coding_interview\\CodingPractice\\CodingPractice\\CodingPractice.csproj",
       "packagesPath": "C:\\Users\\senth\\.nuget\\packages\\",
-      "outputPath": "C:\\Senthil\\Interview_Sample\\CodingPractice\\CodingPractice\\obj\\",
+      "outputPath": "C:\\Senthil\\Interview_Sample\\coding_interview\\CodingPractice\\CodingPractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

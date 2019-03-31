@@ -16,11 +16,11 @@ namespace CodingPractice.HackerRank
         ///closest manager(i.e.farthest from the CEO) to two employees.
         ///You may assume that all employees eventually report up to the CEO.
         ///Assume the following class which you can’t change –
-        /// Bill --> CEO
-        ///  /   |      \
-        ///DOM   SAMIR  MICHAEL
-        /// / \  \
-        /// Peter Bob Porter
+        ///          Bill --> CEO
+        ///          /  |   \
+        ///       DOM  SAMIR  MICHAEL
+        ///     / \  \
+        // /Peter  Bob Porter
         /// /   \
         ///Milton Nina
         ///For example, closestCommonManager(Milton, Nina) = Peter ,

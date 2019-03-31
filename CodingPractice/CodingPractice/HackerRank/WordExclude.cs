@@ -4,8 +4,12 @@ using System.Text;
 
 namespace CodingPractice.HackerRank
 {
-    class WordExclude
+     public class WordExclude
     {
+        public static void retrieveWords()
+        {
+
+        }
 
         public static List<string> retrieveWords(string literalWords,List<string> execludeWords)
         {

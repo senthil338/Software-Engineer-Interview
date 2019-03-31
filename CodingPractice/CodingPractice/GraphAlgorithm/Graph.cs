@@ -12,14 +12,21 @@ namespace CodingPractice.GraphAlgorithm
         {
             private int id;
             LinkedList<Node> adjacent = new LinkedList<Node>();
-            private Node(int id)
+            Graph graph = new Graph();
+            public Node(int id)
             {
                 this.id = id;
+               
             }
 
             private Node getNode(int id)
             {
-               Graph graph = new Graph();
+              
+                if (!graph.nodeLookup.ContainsKey(id))
+                {
+                    Node node = new Node(id);
+                    graph.nodeLookup.Add(id, node);
+                }
                return graph.nodeLookup.GetValueOrDefault(id);
               
             }

@@ -6,6 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ArrayRotation.cs" />
+    <Compile Remove="BestFit.cs" />
+    <Compile Remove="EnumerableComparer.cs" />
+    <Compile Remove="IceCreamChange.cs" />
+    <Compile Remove="LexicographicallySorting.cs" />
+    <Compile Remove="NaturalSorting.cs" />
+    <Compile Remove="ParkingLot.cs" />
+    <Compile Remove="PlayerSorting.cs" />
+    <Compile Remove="ShortestPath_Binary_Maze.cs" />
+    <Compile Remove="ShortestPath_Binary_Maze_Print_BFS.cs" />
+    <Compile Remove="ShortestPath_Binary_Maze_Print_DFS.cs" />
+    <Compile Remove="SortWords.cs" />
+    <Compile Remove="StockBuySell.cs" />
+    <Compile Remove="StringManipulation.cs" />
+    <Compile Remove="StringManipulation_1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DataStructure\DFS\" />
   </ItemGroup>
 
