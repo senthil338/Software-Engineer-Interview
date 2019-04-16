@@ -135,5 +135,71 @@ namespace CodingPractice.StringManipulation
             return true;
         }
         #endregion
+
+        #region int permutaion
+        public static int IntPermutaion(int n, int[] arr)
+        {
+            // arr. 
+
+            Array.Sort(arr);
+            Array.Reverse(arr);
+            int min = Math.Abs(arr[0] - arr[1]);
+            for (int i = 0; i < n - 1; i++)
+            {
+                if (min > Math.Abs(arr[i] - arr[i + 1]))
+                {
+                    min = Math.Abs(arr[i] - arr[i + 1]);
+                }
+            }
+            return min;
+        }
+        #endregion
+
+        #region Longest Common Substring without repeating Char
+        public static int LongestCommonSubStringWithOutRepeatingChar(string s)
+        {
+            int len = s.Length;
+            char[] str = s.ToCharArray();
+            int start = 0;
+            int max = 0;
+            Dictionary<char, int> map = new Dictionary<char, int>();
+            for (int i = 0; i < len; i++)
+            {
+                if (map.ContainsKey(str[i]) == true && map[str[i]] >= start)
+                {
+                    start = map[str[i]] + 1;
+                }
+                map[str[i]] = i;
+                max = Math.Max(max, i - start + 1);
+            }
+            return max;
+        }
+        #endregion
+
+        #region String permutaion
+        public static void stringPermutation(string str)
+        {
+            str = "ABC";
+
+            permutation(str, "");
+        }
+
+        private static void permutation(string str, string pre)
+        {
+            if (str.Length == 0)
+            {
+                Console.WriteLine(pre);
+            }
+            else
+            {
+                for (int i = 0; i < str.Length; i++)
+                {
+                    string rem = str.Substring(0, i) + str.Substring(i + 1);
+                    permutation(rem, pre + str[i]);
+                }
+            }
+        }
+
+        #endregion
     }
 }

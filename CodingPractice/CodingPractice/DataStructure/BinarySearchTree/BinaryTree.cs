@@ -21,6 +21,130 @@ namespace CodingPractice.DataStructure.BinarySearchTree
 
         Node root;
 
+        public void Add()
+        {
+            Add(25);
+            Add(20);
+            Add(40);
+            Add(15);
+            Add(22);
+            Add(35);
+            Add(50);
+            Add(10);
+            Add(16);
+            Add(21);
+            Add(23);
+            Add(30);
+            Add(36);
+            Add(45);
+            Add(55);
+
+        }
+        #region is Tree is Binary Search Tree(BST) or not 
+
+        private bool isBST(Node root,int min,int max)
+        {
+            if (root != null)
+            {
+                /* false if this node violates the min/max constraints */
+                if (root.Data < min || root.Data > max)
+                {
+                    return false;
+                }
+                return (isBST(root.Left, min, root.Data - 1) && isBST(root.Right, root.Data + 1, max));
+            }
+            return true;
+        }
+        #endregion
+        #region is Tree is Binary Search Tree(BST) or not usng inorder search 
+        public void isBST_Inorder()
+        {
+            Add();
+            Node prev = null;
+            var result = isBST_Inorder(root, prev);
+        }
+        /// <summary>
+        /// using in order traversal -> left , root, right
+        /// Time Complexity: O(n)
+        /// Is stack size is consider then space O(n)
+        /// https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        private bool isBST_Inorder(Node root,Node prev)
+        {
+            if (root != null)
+            {
+                 if (!isBST_Inorder(root.Left, prev))
+                {
+                    return false;
+                }
+                if (prev != null && prev.Data <= root.Data)
+                {
+                    return false;
+                }
+                prev = root;
+                return isBST_Inorder(root.Right, prev);
+            }
+            return true;
+
+        }
+        #endregion
+        #region find pair of sum in tree, using stack
+        public void findSum(int sum)
+        {
+            Add();
+            Stack<Node> stack1 = new Stack<Node>();
+            Stack<Node> stack2 = new Stack<Node>();
+            Node curr1 = root;
+            Node curr2 = root;
+
+            while(stack1.Count!=0 || stack2.Count!=0 || curr1 != null || curr2 != null)
+            {
+                if(curr1!=null || curr2 != null)
+                {
+                    if (curr1 != null)
+                    {
+                        stack1.Push(curr1);
+                        curr1 = curr1.Left;
+                    }
+                    if (curr2 != null)
+                    {
+                        stack2.Push(curr2);
+                        curr2 = curr2.Right;
+                    }
+                }
+                else
+                {
+                    int val1 = stack1.Peek().Data;
+                    int val2 = stack2.Peek().Data;
+                    int currentSum = val1 + val2;
+                    if(val1 == val2)
+                    {
+                        break;
+                    }
+                    if (currentSum == sum)
+                    {
+                        Console.WriteLine("Val 1 " + val1 + " and Val 2 " + val2);
+                    }
+                    if(currentSum < sum)
+                    {
+                        curr1 = stack1.Pop();
+                        curr1 = curr1.Right;
+                    }
+                    else if(currentSum > sum)
+                    {
+                        curr2 = stack2.Pop();
+                        curr2 = curr2.Left;
+                    }
+                    
+                }
+                    
+            }
+
+
+        }
+        #endregion
         #region Add BST
         /// <summary>
         /// Add data in the binary search tree non recurive
@@ -99,6 +223,12 @@ namespace CodingPractice.DataStructure.BinarySearchTree
         }
         #endregion
 
+        /// <summary>
+        /// Time O(log n) we are travelling down a path to the lca , Recall that travelling a path to any one node takes O(log n)
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
         #region find LCA
         public int FindLCA(int n1,int n2)
         {
@@ -131,6 +261,9 @@ namespace CodingPractice.DataStructure.BinarySearchTree
         #endregion
 
         #region print leaf node
+        /// <summary>
+        /// https://www.geeksforgeeks.org/print-leaf-nodes-left-right-binary-tree/
+        /// </summary>
         public void PrintLeafNode()
         {
             printLeafNode(root);
@@ -141,15 +274,20 @@ namespace CodingPractice.DataStructure.BinarySearchTree
             {
                 return;
             }
+            // if node is leaf node, print its data     
             if (root.Left == null && root.Right == null)
             {
                 Console.WriteLine(root.Data);
                 return;
             }
+            // if left child exists, check for leaf  
+            // recursively 
             if (root.Left != null)
             {
                 printLeafNode(root.Left);
             }
+            // if right child exists, check for leaf  
+            // recursively 
             if (root.Right != null)
             {
                 printLeafNode(root.Right);
@@ -256,6 +394,7 @@ namespace CodingPractice.DataStructure.BinarySearchTree
         }
         #endregion
 
+        #region Kth smallest 
         /// <summary>
         /// A simpler solution would be to do an inorder traversal and keep track of the element 
         /// </summary>
@@ -282,5 +421,112 @@ namespace CodingPractice.DataStructure.BinarySearchTree
             position = kthSmallest(root.Right, position);
             return position;
         }
+        #endregion
+
+        #region print-left-view-binary-tree
+        // recursive function to print left view  
+        public static int max_level = 0;
+        // A wrapper over leftViewUtil()  
+        public void leftView()
+        {
+            leftViewUtil(root, 1);
+        }
+        private void leftViewUtil(Node node, int level)
+        {
+            // Base Case  
+            if (node == null)
+            {
+                return;
+            }
+
+            // If this is the first node of its level  
+            if (max_level < level)
+            {
+                Console.Write(" " + node.Data);
+                max_level = level;
+            }
+
+            // Recur for left and right subtrees  
+            leftViewUtil(node.Left, level + 1);
+            leftViewUtil(node.Right, level + 1);
+        }
+        #endregion
+
+        #region ZigZag Tree Traversal or Level order traversal in spiral form
+        /// <summary>
+        /// https://www.geeksforgeeks.org/zigzag-tree-traversal/
+        /// https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+        /// We can print spiral order traversal in O(n) time and O(n) extra space. 
+        /// The idea is to use two stacks. We can use one stack for printing from left to right 
+        /// and other stack for printing from right to left. In every iteration, 
+        /// we have nodes of one level in one of the stacks. We print the nodes,
+        /// and push nodes of next level in other stack.
+        /// </summary>
+        public virtual void printZigZagTraversal()
+        {
+
+            // if null then return  
+            if (root == null)
+            {
+                return;
+            }
+
+            // declare two stacks  
+            Stack<Node> currentLevel = new Stack<Node>();
+            Stack<Node> nextLevel = new Stack<Node>();
+
+            // push the root  
+            currentLevel.Push(root);
+            bool leftToRight = true;
+
+            // check if stack is empty  
+            while (currentLevel.Count > 0)
+            {
+
+                // pop out of stack  
+                Node node = currentLevel.Pop();
+
+                // print the data in it  
+                Console.Write(node.Data + " ");
+
+                // store data according to current  
+                // order.  
+                if (leftToRight)
+                {
+                    if (node.Left != null)
+                    {
+                        nextLevel.Push(node.Left);
+                    }
+
+                    if (node.Right != null)
+                    {
+                        nextLevel.Push(node.Right);
+                    }
+                }
+                else
+                {
+                    if (node.Right != null)
+                    {
+                        nextLevel.Push(node.Right);
+                    }
+
+                    if (node.Left != null)
+                    {
+                        nextLevel.Push(node.Left);
+                    }
+                }
+
+                if (currentLevel.Count == 0)
+                {
+                    leftToRight = !leftToRight;
+                    Stack<Node> temp = currentLevel;
+                    currentLevel = nextLevel;
+                    nextLevel = temp;
+                }
+            }
+        }
     }
+    #endregion
+
 }
+
