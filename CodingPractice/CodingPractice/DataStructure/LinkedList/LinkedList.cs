@@ -44,6 +44,7 @@ namespace CodingPractice.DataStructure.LinkedList
             return head;
         }
 
+        #region insert at Kth position
         public Node InserAtKthPosition(Node head, int position, int data)
         {
             Node newNode = new Node();
@@ -79,7 +80,8 @@ namespace CodingPractice.DataStructure.LinkedList
             
 
         }
-
+        #endregion
+        #region "Print Middle element"
         public void PrintMiddle()
         {
             Node slow_prt = head;
@@ -94,5 +96,88 @@ namespace CodingPractice.DataStructure.LinkedList
                 Console.WriteLine(slow_prt.Data);
             }
         }
+        #endregion
+
+        #region reverse a linked list
+        /// <summary>
+        /// Time Complexity: O(n)
+        /// Space Complexity: O(1)
+        /// </summary>
+        public void ReverseList()
+        {
+            Node prev = null, current = head, next = null;
+            while (current != null)
+            {
+                next = current.Next;
+                current.Next = prev;
+                prev = current;
+                current = next;
+            }
+            head = prev;
+        }
+        /// <summary>
+        /// Second Method -> reverseUtil(list.head, null);
+        /// </summary>
+        /// <param name="curr"></param>
+        /// <param name="prev"></param>
+        /// <returns></returns>
+        Node reverseUtil(Node curr, Node prev)
+        {
+
+            /* If last node mark it head*/
+            if (curr.Next == null)
+            {
+                head = curr;
+
+                /* Update next to prev node */
+                curr.Next = prev;
+
+                return head;
+            }
+
+            /* Save curr->next node for recursive call */
+            Node next1 = curr.Next;
+
+            /* and update next ..*/
+            curr.Next = prev;
+
+            reverseUtil(next1, curr);
+            return head;
+        }
+
+
+        #endregion
+
+        #region Convert Binary tree to Doubly linked list
+        // A simple recursive function to  
+        // convert a given Binary tree to  
+        // Doubly Linked List  
+        //public virtual void BToDLL(Node root)
+        //{
+        //    // Base cases  
+        //    if (root == null)
+        //    {
+        //        return;
+        //    }
+
+        //    // Recursively convert right subtree  
+        //    BToDLL(root.right);
+
+        //    // insert root into DLL  
+        //    root.right = head;
+
+        //    // Change left pointer of previous head  
+        //    if (head != null)
+        //    {
+        //        (head).left = root;
+        //    }
+
+        //    // Change head of Doubly linked list  
+        //    head = root;
+
+        //    // Recursively convert left subtree  
+        //    BToDLL(root.left);
+        //}
+        #endregion
     }
 }

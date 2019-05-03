@@ -12,9 +12,9 @@ namespace CodingPractice.StringManipulation
         /// </summary>
         public static void CombinationOfString(string str)
         {
-            combine(str,new System.Text.StringBuilder(), 0);
+            combine(str, new System.Text.StringBuilder(), 0);
         }
-        
+
         /// <summary>
         /// abc -> a,ab,abc,ac,b,bc,c
         /// </summary>
@@ -73,6 +73,10 @@ namespace CodingPractice.StringManipulation
         #region string permutation
         /// <summary>
         /// stting permutation:- ABC to ABC ACB BAC BCA CBA CAB
+        /// Backtracking
+        /// Time Complexity: O(n*n!) Note that there are n! 
+        /// permutations and it requires O(n) time to print a a permutation.
+        /// Auxiliary Space: O(0) if we dont consider stack space
         /// </summary>
         /// <param name="str"></param>
         /// <param name="l"></param>
@@ -108,7 +112,7 @@ namespace CodingPractice.StringManipulation
         }
         #endregion
 
-        #region Palindtome
+        #region Is Palindrome
         /// <summary>
         /// Palindrome 
         /// Given a string, we need to check whether it is possible to make this string a 
@@ -200,6 +204,83 @@ namespace CodingPractice.StringManipulation
             }
         }
 
+        #endregion
+
+        #region RemoveDuplicateChars
+        static string RemoveDuplicateChars(string key)
+        {
+            // --- Removes duplicate chars using string concats. ---
+            // Store encountered letters in this string.
+            string table = "";
+
+            // Store the result in this string.
+            string result = "";
+
+            // Loop over each character.
+            foreach (char value in key)
+            {
+                // See if character is in the table.
+                if (table.IndexOf(value) == -1)
+                {
+                    // Append to the table and the result.
+                    table += value;
+                    result += value;
+                }
+            }
+            return result;
+        }
+        #endregion
+
+        #region reverse a string
+        public static string Reverse(string x)
+            {
+                string result = "";
+                for (int i = x.Length - 1; i >= 0; i--)
+                    result += x[i];
+                return result;
+
+              
+            }
+        #endregion
+        #region number of words in a string
+        public static int Count(string x)
+        {
+            int result = 0;
+
+            //Trim whitespace from beginning and end of string
+            x = x.Trim();
+
+            //Necessary because foreach will execute once with empty string returning 1
+            if (x == "")
+                return 0;
+
+            //Ensure there is only one space between each word in the passed string
+            while (x.Contains("  "))
+                x = x.Replace("  ", " ");
+
+            //Count the words
+            foreach (string y in x.Split(' '))
+                result++;
+
+            return result;
+        }
+        #endregion
+
+        #region all possible substrings from a string
+        static void possibleSubstring()
+        {
+            string value = "rstuvwxyz";
+            // Avoid full length.
+            for (int length = 1; length < value.Length; length++)
+            {
+                // End index is tricky.
+                for (int start = 0; start <= value.Length - length; start++)
+                {
+                    string substring = value.Substring(start, length);
+                    Console.WriteLine(substring);
+                }
+            }
+        }
         #endregion
     }
 }
