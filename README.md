@@ -88,14 +88,14 @@ An array, is a data structure consisting of a collection of elements (values or 
 <br/>
 1. An array stores a fixed-size sequential collection of elements of the same type. 
 	 <br> - (i.e) char array only accept the char likewise integer only accept int value
-<br>2. Array is a reference type, so you need to use the new keyword to create an instance of the array. <br>For example,
+<br/>2. Array is a reference type, so you need to use the new keyword to create an instance of the array. <br>For example,
 	int[] balance = new int[10];
-<br>3. You can assign values to the array at the time of declaration, as shown 
-
-// A character array in C#
-char[] arr1 = {'g', 'e', 'e', 'k', 's'};
-You can also create and initialize an array, as shown −
-int [] marks = new int[5]  { 99,  98, 92, 97, 95};
+<br/>3. You can assign values to the array at the time of declaration, as shown 
+<br/>
+// A character array in C# <br/>
+ char[] arr1 = {'g', 'e', 'e', 'k', 's'}; <br/>
+ You can also create and initialize an array, as shown 
+ int [] marks = new int[5]  { 99,  98, 92, 97, 95};
 
 ### Types of Array
 - **One dimensional arrays**
