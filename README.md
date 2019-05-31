@@ -159,15 +159,10 @@ class Node {
 }
 ```
 <br>
-### Types of Linked List
-<br>
-- **Singly Linked List**
 
-	![alt text](https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png "Singly Linked List")
-- **Doubly Linked List**
+![alt text][singlyLinkedlist]
 
-Access Code here : 
-
+[singlyLinkedlist]: https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png "Singly Linked List"
 
 
 
