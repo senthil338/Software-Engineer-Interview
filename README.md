@@ -94,7 +94,8 @@ I don't want to explain more depth but it's very useful to know the term as we g
 
 <br/>
  <p name = "array"> </p>
- ### Array
+ ### Array <br/>
+
 An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 <br/>
  
