@@ -47,10 +47,11 @@ Similarly, <b>Space complexity</b> of an algorithm quantifies the amount of spac
 Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where f is the function of the size of the input data. 
 We need to know how well our algorithm perform in <b> Best Case, Average Case and Worst Case </b>
 <br/>
-Pelase refer http://bigocheatsheet.com/
+###### Refer:- http://bigocheatsheet.com/
 <br/>
 <br/>
- <font color="red"> <b>Note :-</b> Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
+ ###### Note :-
+ Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
  You're usually only expected to know the basics</font>
  
 ## Data Structure
@@ -93,10 +94,10 @@ I don't want to explain more depth but it's very useful to know the term as we g
 </table>
 
 <br/>
- <b name = "array"> Array </b>
+ <p name = "array"> </p>
+ ### Array
 An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 <br/>
-**Note** Array will only acccept the declared data type value  
  
 <br/>
 1. An array stores a fixed-size sequential collection of elements of the same type. 
