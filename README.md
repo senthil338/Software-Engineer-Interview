@@ -52,18 +52,30 @@ Pelase refer http://bigocheatsheet.com/
 <br/>
  <font color="red"> <b>Note :-</b> Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
  You're usually only expected to know the basics</font>
-<table>
-<tr><th>Data Structure </th><th> Algorithm </th> </tr>
-<tr><td> Array </td><td> Tree Traversal </td></tr>
-<tr><td> Linked Lists </td><td> Breadth-First Search </td></tr>
-<tr><td> Tires </td><td> Depth-First Search </td></tr>
-<tr><td> Graph </td><td> Binary Search </td></tr>
-<tr><td> Stack </td><td> Merge Sort </td></tr>
-<tr><td> Queue </td><td> QuickSort </td></tr>
-<tr><td> Heap </td><td> Insertion sort, Selection sort, Bubble sort. (Just to know why other sorting algorithms are good) </td></tr>
-<tr><td>Hash </td><td>  Dijkstra </td></tr>
-<tr><td> ArrayList  </td><td>  </td></tr>
-</table>
+ 
+## Data Structure
+- [Array](#array) -> An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
+- [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object.Linked list elements are not stored at contiguous location; the elements are linked using pointers.
+- ArrayList
+- Tires
+- Graph
+- Stack
+- Queue
+- Heap
+- HashTable or Dictinoary
+
+## Algorithm
+- Breadth-First Search
+- Depth-First Search
+- Tree Traversal
+- Merge Sort
+- QuickSort
+- Insertion sort, Selection sort, Bubble sort. (just to let you know)
+- Binary Search
+- Dijkstra
+
+ 
+
 
 Most of the time we hear the term called Greed and Naive/Brute-force  Algorithm
 I don't want to explain more depth but it's very useful to know the term as we go indepth we hear this work more offten </br></br>
@@ -81,6 +93,7 @@ I don't want to explain more depth but it's very useful to know the term as we g
 </table>
 
 <br/>
+ <b name = "array"> Array </b>
 An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 <br/>
 **Note** Array will only acccept the declared data type value  
@@ -94,7 +107,7 @@ An array, is a data structure consisting of a collection of elements (values or 
 <br/>
 // A character array in C# <br/>
  char[] arr1 = {'g', 'e', 'e', 'k', 's'}; <br/>
- You can also create and initialize an array, as shown 
+ You can also create and initialize an array, as shown <br/>
  int [] marks = new int[5]  { 99,  98, 92, 97, 95};
 
 ### Types of Array
