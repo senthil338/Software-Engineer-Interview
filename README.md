@@ -50,8 +50,7 @@ We need to know how well our algorithm perform in <b> Best Case, Average Case an
 ###### Refer:- http://bigocheatsheet.com/
 <br/>
 <br/>
- ###### Note :-
- Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
+Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
  You're usually only expected to know the basics</font>
  
 ## Data Structure
