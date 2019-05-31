@@ -166,6 +166,8 @@ Source code and more details can be found by clicking below link
 3. Circular Linked List <br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/Circularly-linked-list.png" 
  width="220" height="22" border="4" alt="Circular Linked List" />
+ -  A circularly linked list, all nodes are linked in a continuous circle, without using null. Circularly linked lists can be either singly or doubly linked.
+
 
 
 
