@@ -75,8 +75,6 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - Dijkstra
 
  
-
-
 Most of the time we hear the term called Greed and Naive/Brute-force  Algorithm
 I don't want to explain more depth but it's very useful to know the term as we go indepth we hear this work more offten </br></br>
 <b>Greed algorithm :</b> Greedy algorithm is one which finds the feasible solution at every stage with the hope of finding global optimum solution.
@@ -146,7 +144,6 @@ Reference :- https://en.wikipedia.org/wiki/Linked_list <br>
 
 
 ##### Basic Operations on Linked List and Complexity
-<br>
 - Insert - O(1), Get - O(n), Delete - O(1)
 <br>
 Linked list require head node , reference pointer for next node , and data to store
@@ -163,7 +160,6 @@ class Node {
 ```
 ### Types of Linked List 
 <br/> 
-
 
 1. [Singly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList)
 <br/><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png" 
