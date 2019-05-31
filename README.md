@@ -55,7 +55,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
  
 ## Data Structure
 - [Array](#array) -> An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
-- [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object.Linked list elements are not stored at contiguous location; the elements are linked using pointers.
+- [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers.
 - ArrayList
 - Tires
 - Graph
@@ -93,9 +93,9 @@ I don't want to explain more depth but it's very useful to know the term as we g
 </table>
 
 <br/>
- <p name = "array"> </p>
- ### Array <br/>
 
+ #### Array
+<p name="array"></p>
 An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 <br/>
  
