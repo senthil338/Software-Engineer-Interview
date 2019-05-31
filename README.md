@@ -130,18 +130,15 @@ Reference : [Multidimensional-arrays](https://docs.microsoft.com/en-us/dotnet/cs
 ##### Basic Operations on Arrays and Complexity
 - Insert - O(n), Get - O(1), Delete - O(n) , Size
 <br/>
-<br/>	
 <p name="linkedlist"></p>
 
 #### Linked List 
-<br/>
 A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 <br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/linkedlist.JPG" 
  width="300" height="120" border="4" alt="Linked List Representation" />
 <br>
 Reference :- https://en.wikipedia.org/wiki/Linked_list <br>
-
 
 ##### Basic Operations on Linked List and Complexity
 - Insert - O(1), Get - O(n), Delete - O(1)
@@ -159,8 +156,7 @@ class Node {
 }
 ```
 ### Types of Linked List 
-<br/> 
-
+Source code and more details can be found by clicking below link
 1. [Singly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList)
 <br/><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png" 
  width="220" height="22" border="4" alt="Linked List" /><br>
