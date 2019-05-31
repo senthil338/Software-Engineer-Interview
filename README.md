@@ -159,6 +159,11 @@ class Node {
 }
 ```
 <br>
+### Types of Linked List
+- **Singly Linked List**
+	
+- **Doubly Linked List**
+
 Access Code here : 
 
 
