@@ -143,6 +143,8 @@ A linked list consists of nodes where each node contains a data field and a refe
  width="300" height="120" border="4" alt="Linked List Representation" />
 <br>
 Reference :- https://en.wikipedia.org/wiki/Linked_list <br>
+
+
 ##### Basic Operations on Linked List and Complexity
 <br>
 - Insert - O(1), Get - O(n), Delete - O(1)
