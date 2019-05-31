@@ -162,13 +162,13 @@ class Node {
 <br/> 
 
 
-[Singly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList)
+1. [Singly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList)
 <br/><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png" 
  width="220" height="22" border="4" alt="Linked List" /><br>
-[Doubly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/DoublyLinkedList)<br>
+2. [Doubly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/DoublyLinkedList)<br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/Doubly-linked-list.png" 
  width="220" height="22" border="4" alt="Doubly Linked List" /> <br>
-Circular Linked List <br>
+3. Circular Linked List <br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/Circularly-linked-list.png" 
  width="220" height="22" border="4" alt="Circular Linked List" />
 
