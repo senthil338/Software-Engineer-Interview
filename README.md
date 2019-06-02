@@ -106,12 +106,11 @@ An array, is a data structure consisting of a collection of elements (values or 
 	 - (i.e) char array only accept the char likewise integer only accept int value
 2. Array is a reference type, so you need to use the new keyword to create an instance of the array. For example,
 	- int[] balance = new int[10];
-2. You can assign values to the array at the time of declaration, as shown,
+3. You can assign values to the array at the time of declaration, as shown,
 	- char[] arr1 = {'g', 'e', 'e', 'k', 's'};
 	- You can also create and initialize an array, as shown
-3. You can assign values to the array at the time of declaration, as shown
-       - char[] arr1 = {'g', 'e', 'e', 'k', 's'}; 
-       - int [] marks = new int[5]  { 99,  98, 92, 97, 95};
+	- int [] marks = new int[5]  { 99,  98, 92, 97, 95};
+
 
 
 
