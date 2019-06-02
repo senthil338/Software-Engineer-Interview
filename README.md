@@ -43,7 +43,7 @@ Data structures are important for the following reasons:
 </br>
 <br>
 <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br>
-Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where f is the function of the size of the input data. <br>
+Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where n is the function of the size of the input data. <br>
 We need to know how well our algorithm perform in <b> Best Case, Average Case and Worst Case </b>
 <br/>
 ###### Refer:- http://bigocheatsheet.com/
