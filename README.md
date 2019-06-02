@@ -215,11 +215,11 @@ We can create a tree with 3 descendents as follows:
 
 
 ```cs
-TreeNode abe = new TreeNode('Abe');
-TreeNode homer = new TreeNode('Homer');
-TreeNode bart = new TreeNode('Bart');
-TreeNode lisa = new TreeNode('Lisa');
-TreeNode maggie = new TreeNode('Maggie');
+TreeNode abe = new TreeNode("Abe");
+TreeNode homer = new TreeNode("Homer");
+TreeNode bart = new TreeNode("Bart");
+TreeNode lisa = new TreeNode("Lisa");
+TreeNode maggie = new TreeNode("Maggie");
 
 abe.Neighbors.Add(homer);
 homer.Neighbors.Add(bart);
