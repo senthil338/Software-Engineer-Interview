@@ -56,7 +56,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - [Array](#array) -> An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 - [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers.
 - ArrayList -> It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
-- [Trees](#trees) -> [Tree] (#trees), [Binary Search Tree](#bst), [Binary Tree](#bt). A tree is a collection of nodes connected by directed (or undirected) edges.
+- [Trees](#trees) -> Tree, [Binary Search Tree](#bst), [Binary Tree](#bt). A tree is a collection of nodes connected by directed (or undirected) edges.
 - Tires
 - Graph
 - Stack
