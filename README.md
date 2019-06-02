@@ -174,8 +174,6 @@ Source code and more details can be found by clicking below link
 <p name="trees"></p>
 
 #### Trees
-
-<br>
 A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
 <br><br>
 One node is distinguished as a root; <br>
