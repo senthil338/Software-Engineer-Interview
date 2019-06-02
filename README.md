@@ -225,7 +225,7 @@ homer.Neighbors.Add(bart);
 homer.Neighbors.Add(lisa);
 homer.Neighbors.Add(maggie);
 ```
-[Source Code and more details](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees)
+[Source code and more details](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees)
 
 
 ##### Tree represent shown as below.
