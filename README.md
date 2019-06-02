@@ -194,7 +194,37 @@ Every node (exclude a root) is connected by a directed edge from exactly one oth
 - The height of a node is the number of edges from the node to the deepest leaf. The height of B is 2. <br>
 
 
+##### Implementing a simple tree data structure
+```cs
+ public class TreeNode
+        {
+            public string Value { get; set; }
+            public List<TreeNode> Neighbors { get; set; }
 
+            public TreeNode(string s)
+            {
+                Value = s;
+                Neighbors = new List<TreeNode>();
+            }
+        }
+```
+	
+	
+We can create a tree with 3 descendents as follows:	
+
+
+```cs
+TreeNode abe = new TreeNode('Abe');
+TreeNode homer = new TreeNode('Homer');
+TreeNode bart = new TreeNode('Bart');
+TreeNode lisa = new TreeNode('Lisa');
+TreeNode maggie = new TreeNode('Maggie');
+
+abe.Neighbors.Add(homer);
+homer.Neighbors.Add(bart);
+homer.Neighbors.Add(lisa);
+homer.Neighbors.Add(maggie);
+```
 
 
 
