@@ -242,5 +242,15 @@ homer.Neighbors.Add(maggie);
 
 
 
+#### Binary Tree
+
+Trees nodes can have zero or more children. However, when a tree has at the most two children, then it’s called binary tree.
+
+
+#### Binary Search Tree
+
+For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be  the data of the root. The data of all the nodes in the right subtree of the root node should be  the data of the root.
+
+
 
 
