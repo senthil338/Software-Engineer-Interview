@@ -34,17 +34,15 @@ Data structures are important for the following reasons:
 4. Specific Data structures are decided to work for specific problems.
  </p>
  
- <b>@</b>You will get to familiar with above topic by going through this document
- <br/>Simple word to remember <br/>
+  <br/><br/>
 <b> Data structure:</b> Method to store information
 </br> <b>Algorithm: </b> Method for solving a problem.
 <br/>
-<b>Note:- </b> Before steping into Data Structure and Algorithm, I want to cover the most important topic Space and Time Complexity little bit
-</br>
+<b>Note:- </b>
 <b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
 </br>
-Similarly, <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.
-Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where f is the function of the size of the input data. 
+Similarly, <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/>
+Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where f is the function of the size of the input data. <br>
 We need to know how well our algorithm perform in <b> Best Case, Average Case and Worst Case </b>
 <br/>
 ###### Refer:- http://bigocheatsheet.com/
