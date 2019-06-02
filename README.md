@@ -179,9 +179,9 @@ A tree is a collection of nodes connected by directed (or undirected) edges. A t
 One node is distinguished as a root; <br>
 Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
 
-![alt text][logo]
+![alt text][trees]
 
-[logo]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Logo Title Text 2"
+[trees]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Trees"
 
  <br>
  
@@ -226,6 +226,11 @@ homer.Neighbors.Add(lisa);
 homer.Neighbors.Add(maggie);
 ```
 
+##### Tree represent shown as below.
+
+![alt text][trees_1]
+
+[trees_1]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Trees"
 
 
 
