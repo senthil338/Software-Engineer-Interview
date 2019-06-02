@@ -228,9 +228,9 @@ homer.Neighbors.Add(maggie);
 
 ##### Tree represent shown as below.
 
-![alt text][trees_1]
+![alt text][imp_tree]
 
-[trees_1]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Trees"
+[imp_trees]: https://github.com/senthil338/coding_interview/blob/master/Images/imp-tree.jpg "Trees"
 
 
 
