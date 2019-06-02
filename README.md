@@ -98,9 +98,6 @@ An array, is a data structure consisting of a collection of elements (values or 
  
 
 
-1. First list item
-    - First nested list item
-    - Second nested list item
     
 1. An array stores a fixed-size sequential collection of elements of the same type. 
 	 - (i.e) char array only accept the char likewise integer only accept int value
