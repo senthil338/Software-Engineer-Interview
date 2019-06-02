@@ -6,6 +6,17 @@ There are many basic data structures that can be used to solve application probl
 
 One of the disadvantages of using an array or linked list to store data is the time necessary to search for an item. Since both the arrays and Linked Lists are linear structures the time required to search a “linear” list is proportional to the size of the data set. For example, if the size of the data set is n, then the number of comparisons needed to find (or not find) an item may be as bad as some multiple of n. So imagine doing the search on a linked list (or array) with n = 106 nodes. Even on a machine that can do million comparisons per second, searching for m items will take roughly m seconds. This not acceptable in today’s world where speed at which we complete operations is extremely important. Time is money. Therefore it seems that better (more efficient) data structures are needed to store and search data.
 
-![alt text][logo]
+![alt text][tree]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[tree]: https://github.com/senthil338/coding_interview/blob/master/Images/tree-parts.jpg "Tree"
+
+#### Some properties of trees:
+
+1. The top-most node is called root.
+2. A node without children is called leaf node or terminal node.
+3. Height (h) of the tree is the distance (edge count) between the farthest leaf to the root.
+      - A has a height of 3
+      - I has a height of 0
+4. Depth or level of a node is the distance between the root and the node in question.
+      - H has a depth of 2
+      - B has a depth of 1
