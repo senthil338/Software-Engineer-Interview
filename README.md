@@ -96,17 +96,24 @@ I don't want to explain more depth but it's very useful to know the term as we g
 An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 <br/>
  
-<br/>
+
+
+1. First list item
+    - First nested list item
+    - Second nested list item
+    
 1. An array stores a fixed-size sequential collection of elements of the same type. 
-	 <br> - (i.e) char array only accept the char likewise integer only accept int value
-<br/>2. Array is a reference type, so you need to use the new keyword to create an instance of the array. <br>For example,
-	int[] balance = new int[10];
-<br/>3. You can assign values to the array at the time of declaration, as shown 
-<br/>
-// A character array in C# <br/>
- char[] arr1 = {'g', 'e', 'e', 'k', 's'}; <br/>
- You can also create and initialize an array, as shown <br/>
- int [] marks = new int[5]  { 99,  98, 92, 97, 95};
+	 - (i.e) char array only accept the char likewise integer only accept int value
+2. Array is a reference type, so you need to use the new keyword to create an instance of the array. For example,
+	- int[] balance = new int[10];
+2. You can assign values to the array at the time of declaration, as shown,
+	- char[] arr1 = {'g', 'e', 'e', 'k', 's'};
+	- You can also create and initialize an array, as shown
+3. You can assign values to the array at the time of declaration, as shown
+       - char[] arr1 = {'g', 'e', 'e', 'k', 's'}; 
+       - int [] marks = new int[5]  { 99,  98, 92, 97, 95};
+
+
 
 ### Types of Array
 - **One dimensional arrays**
@@ -177,8 +184,13 @@ A tree is a collection of nodes connected by directed (or undirected) edges. A t
 <br><br>
 One node is distinguished as a root; <br>
 Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
- <img src="https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg" 
- width="169" height="148" border="4" alt="Circular Linked List" />
+
+![alt text][logo]
+
+[logo]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Logo Title Text 2"
+
+ <br>
+ 
 - A is a parent of B, C, D, <br>
 - B is called a child of A. <br>
 - On the other hand, B is a parent of E, F, K <br>
@@ -186,6 +198,8 @@ Every node (exclude a root) is connected by a directed edge from exactly one oth
 - Nodes with the same parent are called siblings. In the picture, B, C, D are called siblings <br>
 - The depth of a node is the number of edges from the root to the node.  The depth of K is 2. <br>
 - The height of a node is the number of edges from the node to the deepest leaf. The height of B is 2. <br>
+
+
 
 
 
