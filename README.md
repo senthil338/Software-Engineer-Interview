@@ -251,6 +251,22 @@ Trees nodes can have zero or more children. However, when a tree has at the most
 
 For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be  the data of the root. The data of all the nodes in the right subtree of the root node should be  the data of the root.
 
+Binary Tree can be implemented as shown.
 
+
+```cs
+ public class Node
+    {
+        public int Data;
+        public Node Left;
+        public Node Right;
+        public Node(int data) {
+            this.Data = data;
+            Right = Left = null;
+        }
+
+
+    }
+```
 
 
