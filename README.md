@@ -178,9 +178,13 @@ A tree is a collection of nodes connected by directed (or undirected) edges. A t
 One node is distinguished as a root; <br>
 Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
  
- A is a parent of B, C, D, <br>
- B is called a child of A. <br>
- on the other hand, B is a parent of E, F, K <br>
+- A is a parent of B, C, D, <br>
+- B is called a child of A. <br>
+- On the other hand, B is a parent of E, F, K <br>
+- Nodes with no children are called leaves.  In the above picture, C, E, F, L, G are leaves. <br>
+- Nodes with the same parent are called siblings. In the picture, B, C, D are called siblings <br>
+- The depth of a node is the number of edges from the root to the node.  The depth of K is 2. <br>
+- The height of a node is the number of edges from the node to the deepest leaf. The height of B is 2. <br>
 
 
 
