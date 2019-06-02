@@ -54,7 +54,8 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 ## Data Structure
 - [Array](#array) -> An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
 - [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers.
-- ArrayList
+- ArrayList -> It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
+- [Trees](#trees) -> A tree is a collection of nodes connected by directed (or undirected) edges.
 - Tires
 - Graph
 - Stack
@@ -167,6 +168,19 @@ Source code and more details can be found by clicking below link
  -  A circularly linked list, all nodes are linked in a continuous circle, without using null. Circularly linked lists can be either singly or doubly linked.
 
 
+<p name="trees"></p>
+
+#### Trees
+
+<br>
+A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
+<br><br>
+One node is distinguished as a root; <br>
+Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
+ 
+ A is a parent of B, C, D, <br>
+ B is called a child of A. <br>
+ on the other hand, B is a parent of E, F, K <br>
 
 
 
