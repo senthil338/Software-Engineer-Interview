@@ -177,7 +177,8 @@ A tree is a collection of nodes connected by directed (or undirected) edges. A t
 <br><br>
 One node is distinguished as a root; <br>
 Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
- 
+ <img src="https://github.com/senthil338/coding_interview/blob/master/Images/Circularly-linked-list.png" 
+ width="220" height="22" border="4" alt="Circular Linked List" />
 - A is a parent of B, C, D, <br>
 - B is called a child of A. <br>
 - On the other hand, B is a parent of E, F, K <br>
