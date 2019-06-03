@@ -260,9 +260,9 @@ homer.Neighbors.Add(maggie);
 
 #### Binary Search Tree Representaion:
 
-![alt text][bt_tree]
+![alt text][bst_tree]
 
-[bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.png "Binary Tree"
+[bst_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Binary Search Tree"
 
 
 Binary Tree can be implemented as shown.
