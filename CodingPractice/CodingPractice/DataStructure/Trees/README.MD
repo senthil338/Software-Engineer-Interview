@@ -20,3 +20,10 @@ One of the disadvantages of using an array or linked list to store data is the t
 4. Depth or level of a node is the distance between the root and the node in question.
       - H has a depth of 2
       - B has a depth of 1
+
+#### [Tree Traversals](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees)
+
+1. Pre-order traversal
+2. Post-order traversal
+3. In-order traversal
+
