@@ -297,4 +297,8 @@ Binary Tree can be implemented as shown.
     }
 ```
 
+#### [Tree Traversals](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees)
 
+1. Pre-order traversal
+2. Post-order traversal
+3. In-order traversal
