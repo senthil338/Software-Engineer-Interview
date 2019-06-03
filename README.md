@@ -258,11 +258,21 @@ homer.Neighbors.Add(maggie);
 
 [bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.png "Binary Tree"
 
+##### Time Complexity 
+ - Search O(n)	
+ - Insertion O(n)
+ - Deletion O(n)
+
 #### Binary Search Tree Representaion:
 
 ![alt text][bst_tree]
 
 [bst_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Binary Search Tree"
+
+##### Time Complexity 
+ - Search O(log(n))	
+ - Insertion O(log(n))
+ - Deletion O(log(n))
 
 
 Binary Tree can be implemented as shown.
