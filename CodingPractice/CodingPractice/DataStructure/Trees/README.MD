@@ -36,5 +36,42 @@ One of the disadvantages of using an array or linked list to store data is the t
       - First process left subtree (before processing root node)
       - Then, process current root node
       - Process right subtree
-			
+
+#### Tree Traversals can be implemented as shown.
+1. Pre order
+
+```cs
+public void PreOrder(Node root) {
+           if (root != null)  {
+               Console.WriteLine(root.Data);
+               PreOrder(root.Left);
+               PreOrder(root.Right);
+             }
+ }
+```
+2. Post order
+
+```cs
+ public void PostOrder(Node root)
+         {
+             if (root != null) {
+                 PostOrder(root.Left);
+                 PostOrder(root.Right);
+                 Console.WriteLine(root.Data);
+             }
+ }
+ ```
+ 
+ 3. In order
+ 
+ ```cs
+ public void InOrder(Node root){
+             if (root != null) {
+                 InOrder(root.Left);
+                 Console.WriteLine(root.Data);
+                 InOrder(root.Right);
+             }
+           }
+```
+
 
