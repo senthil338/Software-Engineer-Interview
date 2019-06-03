@@ -179,7 +179,7 @@ Source code and more details can be found by clicking below link
 In this section we are going to cover Tree, Binary Search Tree and Binary Tree, B+ tree will be covered later as part of DBMS 
 
 
-A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
+A tree or N-ary Tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
 <br><br>
 One node is distinguished as a root; <br>
 Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
