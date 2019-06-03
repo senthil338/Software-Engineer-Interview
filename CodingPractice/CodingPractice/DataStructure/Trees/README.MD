@@ -22,4 +22,19 @@ One of the disadvantages of using an array or linked list to store data is the t
       - B has a depth of 1
 
 
+#### Tree Traversals
+
+1. Pre-order traversal
+      - Process data of root node
+      - First, traverse left subtree completely
+      - Then, traverse right subtree
+2. Post-order traversal
+      - Process data of left subtree
+      - First, traverse right subtree
+      - Then, traverse root node
+3. In-order traversal
+      - First process left subtree (before processing root node)
+      - Then, process current root node
+      - Process right subtree
+			
 
