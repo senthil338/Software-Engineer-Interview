@@ -250,7 +250,7 @@ Trees nodes can have zero or more children. However, when a tree has at the most
 
 ![alt text][bt_tree]
 
-[bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.jpg "Trees"
+[bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.png "Binary Tree"
 
 
 
