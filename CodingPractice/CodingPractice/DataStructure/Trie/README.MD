@@ -1,3 +1,11 @@
+[Source code]()
+#### Some important topic to be considered 
+
+1. Design Search Autocomplete System
+2. Longest word in dictionary
+3. Boggle Words or Find all possible words in a board of characters
+
+
 
 #### Tries
 
