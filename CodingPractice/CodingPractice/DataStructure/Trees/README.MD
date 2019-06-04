@@ -4,7 +4,14 @@
 2. [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
 3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
 
-
+Some important topic to be consider:-
+1. Print the sorted order from balanced BST
+2. Find a pair with given sum in a Balanced BST
+3. Lowest Common Ancestor in a Binary Search Tree
+4. Convert a given Binary Tree to Doubly Linked List
+5. Print a binary tree in a level order or zig zag order
+6. Is tree is balanced
+7. Find a height of the tree
 
 #### Trees
 
