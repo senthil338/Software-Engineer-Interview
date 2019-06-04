@@ -1,9 +1,9 @@
 #### Some important topic to be considered
-1. Write a java program to find duplicate elements in an array
-2. Write a java program to find continuous sub array whose sum is equal to a given number
-3. Write a java program to find a missing number in an integer array?
-4. Write a java program to count occurrences of each element in an array
-5. Write a java program to reverse an array without using an additional array?
+1. Write a program to find duplicate elements in an array
+2. Write a program to find continuous sub array whose sum is equal to a given number
+3. Write a program to find a missing number in an integer array
+4. Write a program to count occurrences of each element in an array
+5. Write a program to reverse an array without using an additional array
 
 ### Array
 <p name="array"></p>
