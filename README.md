@@ -135,41 +135,6 @@ Reference : [Multidimensional-arrays](https://docs.microsoft.com/en-us/dotnet/cs
 <br/>
 <p name="linkedlist"></p>
 
-#### Linked List 
-A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
-<br>
-<img src="https://github.com/senthil338/coding_interview/blob/master/Images/linkedlist.JPG" 
- width="300" height="120" border="4" alt="Linked List Representation" />
-<br>
-Reference :- https://en.wikipedia.org/wiki/Linked_list <br>
-
-##### Basic Operations on Linked List and Complexity
-- Insert - O(1), Get - O(n), Delete - O(1)
-<br>
-Linked list require head node , reference pointer for next node , and data to store
-
-```cs
-class Node {
-	Node next;
-	int val;
-	Node(int val) {
-	        this.val = val;
-		next = null;
-	}
-}
-```
-### Types of Linked List 
-Source code and more details can be found by clicking below link
-1. [Singly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList)
-<br/><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Singly-linked-list.png" 
- width="220" height="22" border="4" alt="Linked List" /><br>
-2. [Doubly Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/DoublyLinkedList)<br>
-<img src="https://github.com/senthil338/coding_interview/blob/master/Images/Doubly-linked-list.png" 
- width="220" height="22" border="4" alt="Doubly Linked List" /> <br>
-3. Circular Linked List <br>
-<img src="https://github.com/senthil338/coding_interview/blob/master/Images/Circularly-linked-list.png" 
- width="220" height="22" border="4" alt="Circular Linked List" />
- -  A circularly linked list, all nodes are linked in a continuous circle, without using null. Circularly linked lists can be either singly or doubly linked.
 
 
 <p name="trees"></p>
