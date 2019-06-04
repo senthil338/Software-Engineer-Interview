@@ -57,7 +57,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - [Linked Lists](#linkedlist) -> A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers.
 - ArrayList -> It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
 - [Trees](#trees) -> Tree, [Binary Search Tree](#bst), [Binary Tree](#bt). A tree is a collection of nodes connected by directed (or undirected) edges.
-- Tries
+- [Tries](#tries) -> Trie is an efficient information retrieval data structure.
 - Graph
 - Stack
 - Queue
@@ -302,5 +302,13 @@ Binary Tree can be implemented as shown.
 1. Pre-order traversal (root-left-right)
 2. Post-order traversal - (left-right-root)
 3. In-order traversal (left-root-right) - For Binary Search Tree "in order traversal" will return shorted list.
+
+
+<p name="tries"></p>
+
+
+#### Tries
+
+Trie is an efficient information retrieval data structure.The term “trie” comes from the word retrieval, and is usually pronounced “try”, to distinguish it from other “tree” structures.
 
 
