@@ -123,7 +123,6 @@ One of the disadvantages of using an array or linked list to store data is the t
 
 [bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.png "Binary Tree"
 
-[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
 
 ##### Time Complexity 
  - Search O(n)	
@@ -136,7 +135,7 @@ One of the disadvantages of using an array or linked list to store data is the t
 
 [bst_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Binary Search Tree"
 
-[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
+
 
 ##### Time Complexity 
  - Search O(log(n))	
