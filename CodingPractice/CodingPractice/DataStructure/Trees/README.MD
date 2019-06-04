@@ -74,4 +74,12 @@ public void PreOrder(Node root) {
            }
 ```
 
+#### Types of Binary Tree
+1. Complete binary tree
+    - A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible. 
+2. Full binary tree
+    - A full Binary Tree A Binary Tree is full if every node has 0 or 2 children
+3. Perfect binary tree
+    -  A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level.
+
 
