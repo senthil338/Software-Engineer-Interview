@@ -23,7 +23,7 @@ An array, is a data structure consisting of a collection of elements (values or 
 
 
 
-### Types of Array
+#### Types of Array
 - **One dimensional arrays**
 	char[] arr1 = {'g', 'e', 'e', 'k', 's'};
 - **Two dimensional**
