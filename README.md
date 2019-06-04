@@ -321,7 +321,7 @@ Trie is an efficient information retrieval data structure. The term “trie” c
 
 
 
-#### Trie node can be implemented as below 
+#### Trie can be implemented as below 
 
 
 
@@ -365,4 +365,19 @@ In the above Graph, the set of vertices V = {0,1,2,3,4} and the set of edges E =
 
 Reference: [geeksforgeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 
+
+#### Graph can be implemented as below
+```cs
+ public class GraphNode
+        {
+            public string Value { get; set; }
+            public List<GraphNode> Neighbors { get; set; }
+
+            public GraphNode(string s)
+            {
+                Value = s;
+                Neighbors = new List<GraphNode>();
+            }
+        }
+```
 
