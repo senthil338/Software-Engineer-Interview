@@ -358,6 +358,6 @@ A graph is a data structure where a node can have zero or more adjacent elements
 
 ![alt text][graph]
 
-[graph]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Graph"
+[graph]: https://github.com/senthil338/coding_interview/blob/master/Images/graph.JPG "Graph"
 
 
