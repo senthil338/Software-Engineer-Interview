@@ -1,3 +1,17 @@
+
+#### Tries
+
+Trie is an efficient information retrieval data structure. The term “trie” comes from the word re<b>trie</b>val, and is usually pronounced “try”, to distinguish it from other “tree” structures.
+
+##### Basic Operations on Tries and Complexity
+- Insert - O(n), Get - O(n)
+
+<br>
+<img src="https://github.com/senthil338/coding_interview/blob/master/Images/trie.jpeg" 
+ width="420" height="500" border="4" alt="Trie" />
+
+<br>
+
 #### Trie can be implemented as below 
 
 
