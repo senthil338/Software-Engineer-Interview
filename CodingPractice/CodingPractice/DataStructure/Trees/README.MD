@@ -12,6 +12,7 @@ Some important topic to be consider:-
 5. Print a binary tree in a level order or zig zag order
 6. Is tree is balanced
 7. Find a height of the tree
+8. How to balance a non balanced tree (AVL and Redblack tree)
 
 #### Trees
 
