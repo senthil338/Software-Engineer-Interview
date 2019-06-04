@@ -244,7 +244,7 @@ homer.Neighbors.Add(maggie);
 
 ### Binary Tree
 
-#### Types of Binary Tree
+#### Binary Tree and Binary search Tree
 
 1. Binary Tree 
       - Trees nodes can have zero or more children. However, when a tree has at the most two children, then it’s called binary tree. 
