@@ -2,7 +2,7 @@
 
 1. [Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/TreeNode.cs)
 2. [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
-3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
+3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
 
 Some important topic to be consider:-
 1. Print the sorted order from balanced BST
