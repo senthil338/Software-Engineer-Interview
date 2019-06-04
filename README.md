@@ -309,6 +309,6 @@ Binary Tree can be implemented as shown.
 
 #### Tries
 
-Trie is an efficient information retrieval data structure.The term “trie” comes from the word retrieval, and is usually pronounced “try”, to distinguish it from other “tree” structures.
+Trie is an efficient information retrieval data structure. The term “trie” comes from the word re<b>trie</b>val, and is usually pronounced “try”, to distinguish it from other “tree” structures.
 
 
