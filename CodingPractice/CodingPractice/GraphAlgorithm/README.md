@@ -19,4 +19,11 @@ A graph is a data structure for storing connected data like a network of people 
 <br>
         <img src="https://github.com/senthil338/coding_interview/blob/master/Images/weighted.jpg" 
  width="150" height="150" border="4" alt="Weighted Graph" />
+ 
+ ### Number of way to represent Graph 
+ 
+1. Adjacency Matrix - using Array
+2. Adjacency List - using LinkedList
+
+
 
