@@ -82,4 +82,7 @@ public void PreOrder(Node root) {
 3. Perfect binary tree
     -  A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level.
 
+![alt text][bt_types]
+
+[bt_types]: https://github.com/senthil338/coding_interview/blob/master/Images/bt_types.JPG "Binary tree types "
 
