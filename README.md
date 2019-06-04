@@ -342,7 +342,7 @@ Trie is an efficient information retrieval data structure. The term “trie” c
         }
     }
 ```
-
+[Source Code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trie/TrieNode.cs)
 ##### References:
 1. [wiki](https://en.wikipedia.org/wiki/Trie)
 2. [medium](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
