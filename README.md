@@ -58,7 +58,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - ArrayList -> It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
 - [Trees](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees) -> Tree, [Binary Search Tree](#bst), [Binary Tree](#bt). A tree is a collection of nodes connected by directed (or undirected) edges.
 - [Tries](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trie) -> Trie is an efficient information retrieval data structure.
-- [Graph](#graph) -> A graph is a data structure where a node can have zero or more adjacent elements.
+- [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) -> A graph is a data structure where a node can have zero or more adjacent elements.
 - Stack
 - Queue
 - Heap
