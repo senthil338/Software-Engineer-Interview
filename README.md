@@ -58,7 +58,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - ArrayList -> It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
 - [Trees](#trees) -> Tree, [Binary Search Tree](#bst), [Binary Tree](#bt). A tree is a collection of nodes connected by directed (or undirected) edges.
 - [Tries](#tries) -> Trie is an efficient information retrieval data structure.
-- Graph
+- [Graph](#graph) -> A graph is a data structure where a node can have zero or more adjacent elements.
 - Stack
 - Queue
 - Heap
@@ -348,5 +348,16 @@ Trie is an efficient information retrieval data structure. The term “trie” c
 2. [medium](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
 3. [geeksforgeeks](https://www.geeksforgeeks.org/trie-insert-and-search/)
 
+
+<p name="graph"></p>
+
+
+#### Graph
+
+A graph is a data structure where a node can have zero or more adjacent elements. The connection between two nodes is called edge. Nodes can also be called vertices
+
+![alt text][graph]
+
+[graph]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Graph"
 
 
