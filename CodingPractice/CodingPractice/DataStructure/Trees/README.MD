@@ -1,3 +1,70 @@
+[Source code](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees)
+
+#### Trees
+
+
+A tree or N-ary Tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. A tree has following general properties:
+<br><br>
+One node is distinguished as a root; <br>
+Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children <br>
+
+![alt text][trees]
+
+[trees]: https://github.com/senthil338/coding_interview/blob/master/Images/trees.jpg "Trees"
+
+ <br>
+ 
+- A is a parent of B, C, D, <br>
+- B is called a child of A. <br>
+- On the other hand, B is a parent of E, F, K <br>
+- Nodes with no children are called leaves.  In the above picture, C, E, F, L, G are leaves. <br>
+- Nodes with the same parent are called siblings. In the picture, B, C, D are called siblings <br>
+- The depth of a node is the number of edges from the root to the node.  The depth of K is 2. <br>
+- The height of a node is the number of edges from the node to the deepest leaf. The height of B is 2. <br>
+
+
+##### Implementing a simple tree data structure
+```cs
+ public class TreeNode
+        {
+            public string Value { get; set; }
+            public List<TreeNode> Neighbors { get; set; }
+
+            public TreeNode(string s)
+            {
+                Value = s;
+                Neighbors = new List<TreeNode>();
+            }
+        }
+```
+	
+	
+We can create a tree with 3 descendents as follows:	
+
+
+```cs
+TreeNode abe = new TreeNode("Abe");
+TreeNode homer = new TreeNode("Homer");
+TreeNode bart = new TreeNode("Bart");
+TreeNode lisa = new TreeNode("Lisa");
+TreeNode maggie = new TreeNode("Maggie");
+
+abe.Neighbors.Add(homer);
+homer.Neighbors.Add(bart);
+homer.Neighbors.Add(lisa);
+homer.Neighbors.Add(maggie);
+```
+
+
+
+##### Tree represent shown as below.
+
+
+![alt text][imp_tree]
+
+[imp_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/imp-tree.jpg "Trees"
+
+
 A tree is a data structure where a node can zero or more children. Each node contains a value. Like graphs, the connection between nodes is called edges. A tree is a type of graph, but not all of them are trees.
 
 These data structures are called “trees” because the data structure resembles a tree 🌳. It starts with a root node and branch off with its descendants, and finally, there are leaves.
@@ -74,15 +141,5 @@ public void PreOrder(Node root) {
            }
 ```
 
-#### Types of Binary Tree
-1. Complete binary tree
-    - A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible. 
-2. Full binary tree
-    - A full Binary Tree A Binary Tree is full if every node has 0 or 2 children
-3. Perfect binary tree
-    -  A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level.
 
-![alt text][bt_types]
-
-[bt_types]: https://github.com/senthil338/coding_interview/blob/master/Images/bt_types.JPG "Binary tree types "
 
