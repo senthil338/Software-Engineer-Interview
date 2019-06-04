@@ -95,20 +95,76 @@ One of the disadvantages of using an array or linked list to store data is the t
       - B has a depth of 1
 
 
+
+### Binary Tree
+
+#### Binary Tree and Binary search Tree
+
+1. Binary Tree 
+      - Trees nodes can have zero or more children. However, when a tree has at the most two children, then it’s called binary tree. 
+2. Binary Search Tree 
+      - For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be  the data of the root. The data of all the nodes in the right subtree of the root node should be  the data of the root.
+
+#### Types of Binary Tree
+1. Complete binary tree
+    - A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible. 
+2. Full binary tree
+    - A full Binary Tree A Binary Tree is full if every node has 0 or 2 children
+3. Perfect binary tree
+    -  A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at the same level.
+
+![alt text][bt_types]
+
+[bt_types]: https://github.com/senthil338/coding_interview/blob/master/Images/bt_types.JPG "Binary tree types "
+
+#### Binary Tree Representation:
+
+![alt text][bt_tree]
+
+[bt_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/Binary_tree.png "Binary Tree"
+
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
+
+##### Time Complexity 
+ - Search O(n)	
+ - Insertion O(n)
+ - Deletion O(n)
+
+#### Binary Search Tree Representaion:
+
+![alt text][bst_tree]
+
+[bst_tree]: https://github.com/senthil338/coding_interview/blob/master/Images/binary_search_tree.png "Binary Search Tree"
+
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
+
+##### Time Complexity 
+ - Search O(log(n))	
+ - Insertion O(log(n))
+ - Deletion O(log(n))
+
+
+Binary Tree can be implemented as shown.
+
+
+```cs
+ public class Node
+ {
+        public int Data;
+        public Node Left;
+        public Node Right;
+        public Node(int data) {
+            this.Data = data;
+            Right = Left = null;
+        }
+  }
+```
+
 #### Tree Traversals
 
-1. Pre-order traversal
-      - Process data of root node
-      - First, traverse left subtree completely
-      - Then, traverse right subtree
-2. Post-order traversal
-      - Process data of left subtree
-      - First, traverse right subtree
-      - Then, traverse root node
-3. In-order traversal
-      - First process left subtree (before processing root node)
-      - Then, process current root node
-      - Process right subtree
+1. Pre-order traversal (root-left-right)
+2. Post-order traversal - (left-right-root)
+3. In-order traversal (left-root-right) - For Binary Search Tree "in order traversal" will return shorted list.
 
 #### Tree Traversals can be implemented as shown.
 1. Pre order
@@ -146,6 +202,9 @@ public void PreOrder(Node root) {
              }
            }
 ```
+
+
+
 
 
 
