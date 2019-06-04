@@ -22,8 +22,14 @@ A graph is a data structure for storing connected data like a network of people 
  
  ### Number of way to represent Graph 
  
-1. Adjacency Matrix - using Array
-2. Adjacency List - using LinkedList
+1. Adjacency Matrix - by Array
+<br>
+     <img src="https://github.com/senthil338/coding_interview/blob/master/Images/adj.jpg" 
+ width="100" height="100" border="4" alt="Undirected Graph" />
+ <br>
+2. Adjacency List - by LinkedList
+      <img src="https://github.com/senthil338/coding_interview/blob/master/Images/mat.jpg" 
+ width="100" height="100" border="4" alt="Undirected Graph" />
 
 
 
