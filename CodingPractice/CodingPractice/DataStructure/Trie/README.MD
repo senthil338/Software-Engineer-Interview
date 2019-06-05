@@ -14,6 +14,8 @@ Trie is an efficient information retrieval data structure. The term “trie” c
 ##### Basic Operations on Tries and Complexity
 - Insert - O(n), Get - O(n)
 
+Trie data strucure can be formed as shown
+
 <br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/trie.jpeg" 
  width="420" height="500" border="4" alt="Trie" />
@@ -46,3 +48,4 @@ Trie is an efficient information retrieval data structure. The term “trie” c
 1. [wiki](https://en.wikipedia.org/wiki/Trie)
 2. [medium](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
 3. [geeksforgeeks](https://www.geeksforgeeks.org/trie-insert-and-search/)
+4. [YouTube](https://www.youtube.com/watch?v=zIjfhVPRZCg)
