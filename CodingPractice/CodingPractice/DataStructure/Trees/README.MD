@@ -4,6 +4,8 @@
 2. [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
 3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
 
+[Binary Tree](#binarytree)
+
 Some important topic to be consider:-
 1. Print the sorted order from balanced BST
 2. Find a pair with given sum in a Balanced BST
@@ -101,6 +103,9 @@ One of the disadvantages of using an array or linked list to store data is the t
 4. Depth or level of a node is the distance between the root and the node in question.
       - H has a depth of 2
       - B has a depth of 1
+
+
+<p name="binarytree"></p>
 
 
 
