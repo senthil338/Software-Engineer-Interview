@@ -51,12 +51,10 @@ Data structure is a particular way of storing and organizing information in a co
   - <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br>
     
          - Algorithm complexity is commonly represented with the O(n) notation, - also known as asymptotic 
-         notation or <b> “Big O notation”</b>, where n is the function of the size of the input data. 
-         We need to know how well our algorithm perform in <b> Best Case, Average Case and Worst Case </b>
-<br/>
-###### Refer:- http://bigocheatsheet.com/
-<br/>
-<br/>
+         notation or “Big O notation”, where n is the function of the size of the input data. 
+         We need to know how well our algorithm perform in  Best Case, Average Case and Worst Case 
+   ###### Refer:- http://bigocheatsheet.com/
+
 Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
  You're usually only expected to know the basics</font>
  
