@@ -73,8 +73,8 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) -> A graph is a data structure where a node can have zero or more adjacent elements.
 - [Stack](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Stack) -> Stack is a linear data structure which represents a simple last-in-first-out (LIFO) 
 - [Queue](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Queue) -> Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
-- [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD)
-- HashTable or Dictinoary
+- [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD) -> A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property.
+- HashTable or Dictionary
 
 ## Algorithm
 - Breadth-First Search
