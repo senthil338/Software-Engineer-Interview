@@ -1,8 +1,10 @@
-[Source Code]
+[Source Code] 
+  - Using [Array]
+  - Using [LinkedList]
 
 #### Important Topic
 
-#Stack
+# Stack
 
 Stack is a linear data structure which follows a particular order in which the operations are performed
 Its represents a simple last-in-first-out (LIFO).
@@ -15,6 +17,7 @@ Space : O(n)
    - Push, which adds an element to the collection, and
    - Pop, which removes the most recently added element that was not yet removed
    - Peek Returns the top item from the stack.
+
 
 
 
