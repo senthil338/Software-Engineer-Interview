@@ -45,12 +45,10 @@ Data structure is a particular way of storing and organizing information in a co
  
     - Data structure: Method to store information
     - Algorithm: Method for solving a problem.
-<br/>
-<b>Note:- </b>
-<b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
-</br>
-<br>
-<b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br>
+
+
+  - <b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
+  - <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br>
 Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or <b> “Big O notation”</b>, where n is the function of the size of the input data. <br>
 We need to know how well our algorithm perform in <b> Best Case, Average Case and Worst Case </b>
 <br/>
