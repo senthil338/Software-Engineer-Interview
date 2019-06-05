@@ -14,7 +14,9 @@ Trie is an efficient information retrieval data structure. The term “trie” c
 ##### Basic Operations on Tries and Complexity
 - Insert - O(n), Get - O(n)
 
-Trie data strucure can be formed as shown
+Trie data strucure can be formed as shown for the given input [ peter, piper, picked, peck, pickled, peppers ].
+
+If we type <b>pi</b>, the auto complete system will return piper, picked and pickled, if we type <b>pic</b> then it will return picked and pickled. Example Google Search and Searching contact in the mobile.
 
 <br>
 <img src="https://github.com/senthil338/coding_interview/blob/master/Images/trie.jpeg" 
