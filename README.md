@@ -1,16 +1,28 @@
 # Software Engineering interview question with problems
 
-This project contains most of the interview preparation question , answer and the reference for the questions <b>
-(leetcode, geeksforgeeks, youtupe etc).</b> I started preparing Data Structure and Alogirthm and solving the problem using C#. I don't
-find enough solution using C# as a language, So I started documeting that and mostly used online site like <b>leetcode, hackerrank,
-hackerearth , youtupe </b> as my learning source and I wanted to combine all together and provide the single source for interview 
-preparation. This will not cover 100% problem but this will help us to know from where to start and provide good understanting of 
-interview praparation, In online most of the problem solved by using Python and Java, So I learned Python myself and as a C# developer
-picking a Java its not much difficult task.This project provide overview of Design pattern, OOPS, Object Oriented design 
-for realtime problem, problem solving and System Design. I will keep update this repostory as I learn. 
-Basic understading of programming language is require to understand the code.
+My name is Senthil Ramachandran and I am a software engineering having 13 years of experince.
+
+I can be reached at 786.senthil@gmail.com
+
+Please provide your suggestion to make this document very useful.
+
+
+I have consider the following facts while preparting this document
+1. You are expecting an interview soon and you want to cover the most of the important topic as early as possible.
+2. Candidate have some basic computer science fundamental knowledge.
+3. Speding more than 10 mins on each topic will not be worth if you have tight deadline.
+4. Need single source of document for an interview, referrencing multiple website require considrable amount of time and efforts. 
+5. Each topic required some interview questions and answers. 
+
+Note:- Clicking on each link will navigate us to detail page which contains source code using C# and problem you may encounter during interview
+
+
+This Github repository will covers most of the software engineering interview  question and answers , also reference for the questions <b> (leetcode, geeksforgeeks,hackerrank,hackerearth, youtupe etc).</b> , any one have good understanding of object oriented programming  can able to understand the code. I started documenting all together and provide the single source for an interview preparation. This will not cover 100% interview problem but it will help us to understand all the important topics and it covers some overview of Data Structure and Algorithm, Design Pattern, OOPS, Object Oriented design for a realtime problem, DBMS (SQL and NOSQL), Network, Problem Solving and System Design. I will keep update this repostory as I learn. Basic understading of programming language is require to understand the code.
+
 Suggestions and comments are welcome. 
 
+
+  
 * [Technical Interview Questions](#tech)
    * [Data Structures and Algorithms](#dsalg)
    * [DBMS](#dbms)
