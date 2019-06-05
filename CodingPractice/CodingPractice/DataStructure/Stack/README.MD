@@ -3,6 +3,10 @@
   - Using [LinkedList](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Stack/Stack_LinkedList.cs)
 
 #### Important Topic
+1. Depth-First Traversal
+2. Determine brackets are balanced or not
+3. Implement a max stack
+
 
 # Stack
 
