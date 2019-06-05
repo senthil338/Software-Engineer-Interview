@@ -1,6 +1,6 @@
 Soure Code
-  - [MinHeap](https://github.com/senthil338/coding_interview/new/master/CodingPractice/CodingPractice/DataStructure/Heap/MinHeap.cs)
-  - [MaxHeap](https://github.com/senthil338/coding_interview/new/master/CodingPractice/CodingPractice/DataStructure/Heap/MaxHeap.cs)
+  - [MinHeap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/MinHeap.cs)
+  - [MaxHeap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/MaxHeap.cs)
   
   Important Topic.
   
