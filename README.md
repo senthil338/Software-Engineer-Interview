@@ -1,4 +1,4 @@
-# coding_interview
+# Software Engineering interview question with problems
 
 This project contains most of the interview preparation question , answer and the reference for the questions <b>
 (leetcode, geeksforgeeks, youtupe etc).</b> I started preparing Data Structure and Alogirthm and solving the problem using C#. I don't
