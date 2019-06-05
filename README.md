@@ -71,8 +71,8 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - [Trees](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees) -> Tree, [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree), [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree). A tree is a collection of nodes connected by directed (or undirected) edges.
 - [Tries](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trie) -> Trie is an efficient information retrieval data structure.
 - [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) -> A graph is a data structure where a node can have zero or more adjacent elements.
-- Stack
-- Queue
+- Stack -> Stack is a linear data structure which represents a simple last-in-first-out (LIFO) 
+- Queue -> Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
 - Heap
 - HashTable or Dictinoary
 
