@@ -6,8 +6,7 @@ I can be reached at 786.senthil@gmail.com
 
 Please provide your suggestion to make this document very useful.
 
-
-I have consider the following facts while preparting this document
+#### I have consider the following facts while preparting this document
 1. You are expecting an interview soon and you want to cover the most of the important topic as early as possible.
 2. Candidate have some basic computer science fundamental knowledge.
 3. Speding more than 10 mins on each topic will not be worth if you have tight deadline.
@@ -21,8 +20,6 @@ This Github repository will covers most of the software engineering interview  q
 
 Suggestions and comments are welcome. 
 
-
-  
 * [Technical Interview Questions](#tech)
    * [Data Structures and Algorithms](#dsalg)
    * [DBMS](#dbms)
@@ -38,7 +35,7 @@ Suggestions and comments are welcome.
   <h5>Why do we need data structures? </h5>
 Data structure is a particular way of storing and organizing information in a computer so that it can be retrieved and used most productively.
 
-Data structures are important for the following reasons:
+#### Data structures are important for the following reasons:
 
 1. Data structures are used in almost every program or software system.
 2. Each Data Structure allows data to be stored in specific manner.
@@ -46,7 +43,7 @@ Data structures are important for the following reasons:
 4. Specific Data structures are decided to work for specific problems.
  </p>
  
-  <br/><br/>
+  <br/>
 <b> Data structure:</b> Method to store information
 </br> <b>Algorithm: </b> Method for solving a problem.
 <br/>
