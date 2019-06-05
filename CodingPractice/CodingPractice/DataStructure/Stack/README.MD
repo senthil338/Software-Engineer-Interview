@@ -1,6 +1,6 @@
-[Source Code] 
-  - Using [Array]
-  - Using [LinkedList]
+#### Source Code 
+  - Using [Array](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Stack/StackImp.cs)
+  - Using [LinkedList](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Stack/Stack_LinkedList.cs)
 
 #### Important Topic
 
