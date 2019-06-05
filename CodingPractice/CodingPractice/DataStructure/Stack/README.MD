@@ -1,0 +1,23 @@
+[Source Code]
+
+#### Important Topic
+
+#Stack
+
+Stack is a linear data structure which follows a particular order in which the operations are performed
+Its represents a simple last-in-first-out (LIFO).
+
+#### Basic operation on Stack
+
+Search Time : - O(n), Push :- O(1), Pop :- O(1), Peek :- 0(1)
+Space : O(n)
+
+   - Push, which adds an element to the collection, and
+   - Pop, which removes the most recently added element that was not yet removed
+   - Peek Returns the top item from the stack.
+
+
+
+
+
+
