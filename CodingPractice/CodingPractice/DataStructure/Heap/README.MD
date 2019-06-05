@@ -3,12 +3,20 @@ Soure Code
   - [MaxHeap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/MaxHeap.cs)
   
   Important Topic.
+  1. Return max value from an array
+  2. Return min value from an array
   
   # Heap or Binary Heap
   A binary heap is a complete binary tree which satisfies the heap ordering property. The ordering can be one of two types:
    - The min-heap property: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.
    - The max-heap property: the value of each node is less than or equal to the value of its parent, with the maximum-value element at the root.
 A heap is useful data structure when you need to remove the object with the highest (or lowest) priority. A common use of a heap is to implement a priority queue
+
+#### Min Heap representaion
+
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 For any node in position k,
 its left child is located at 2*k index 
