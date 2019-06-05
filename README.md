@@ -72,7 +72,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - [Tries](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trie) -> Trie is an efficient information retrieval data structure.
 - [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) -> A graph is a data structure where a node can have zero or more adjacent elements.
 - [Stack](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Stack) -> Stack is a linear data structure which represents a simple last-in-first-out (LIFO) 
-- Queue -> Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
+- [Queue](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Queue) -> Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
 - Heap
 - HashTable or Dictinoary
 
