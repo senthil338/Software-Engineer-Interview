@@ -1,4 +1,14 @@
-#### Linked List 
+[Source Code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/LinkedList/LinkedList.cs)
+
+#### Important Topic
+
+1. Add a two linked list and return a new list with digits. 
+2. Insert a value  at Kth position in a linked list
+3. Reverse a linked list
+4. Detect loop in a linked list
+5. LRU (Least Recently Used) cache
+
+### Linked List 
 A linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration.
 A drawback of linked lists is that <b>access time is linear</b>. Faster access, such as random access, is not feasible. Arrays have better cache locality compared to linked lists.
 <br>
