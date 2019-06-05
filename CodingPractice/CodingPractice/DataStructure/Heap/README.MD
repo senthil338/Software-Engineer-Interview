@@ -14,9 +14,9 @@ A heap is useful data structure when you need to remove the object with the high
 
 #### Min Heap representaion
 
-![alt text][logo]
+![alt text][minheap]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[minheap]: https://github.com/senthil338/coding_interview/blob/master/Images/minheap.jpg "Min Heap"
 
 For any node in position k,
 its left child is located at 2*k index 
@@ -45,4 +45,8 @@ swap this value with the smaller-valued
 child.
 - Return the original root that was saved.
 
-  
+#### Basic operation on heap and complexity
+ - insert O(log n) 	  
+ - deleteMin  O(log n)	  
+ - remove   O(log n) 
+ - findMin   O(1)  
