@@ -43,9 +43,8 @@ Data structure is a particular way of storing and organizing information in a co
 4. Specific Data structures are decided to work for specific problems.
  </p>
  
-  <br/>
-<b> Data structure:</b> Method to store information
-</br> <b>Algorithm: </b> Method for solving a problem.
+    - Data structure: Method to store information
+    - Algorithm: Method for solving a problem.
 <br/>
 <b>Note:- </b>
 <b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
