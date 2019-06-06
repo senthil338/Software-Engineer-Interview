@@ -50,7 +50,7 @@ Data structure is a particular way of storing and organizing information in a co
   - <b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
   - <b>Space complexity</b> of an algorithm quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br>
     
-         - Algorithm complexity is commonly represented with the O(n) notation, - also known as asymptotic 
+         Algorithm complexity is commonly represented with the O(n) notation, - also known as asymptotic 
          notation or “Big O notation”, where n is the function of the size of the input data. 
          We need to know how well our algorithm perform in  Best Case, Average Case and Worst Case 
          
@@ -62,8 +62,8 @@ Data structure is a particular way of storing and organizing information in a co
            
    ###### Refer:- http://bigocheatsheet.com/
 
-Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
- You're usually only expected to know the basics</font>
+  > Most interviewers won't ask about specific algorithms for binary tree balancing or 
+     other complex algorithms and You're usually only expected to know the basics.
  
 ## Data Structure
 - [Array](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Array) 
@@ -100,11 +100,12 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
 - Dijkstra
 
  
-Most of the time we hear the term called Greed and Naive/Brute-force  Algorithm
-I don't want to explain more depth but it's very useful to know the term as we go indepth we hear this work more offten </br></br>
-<b>Greed algorithm :</b> Greedy algorithm is one which finds the feasible solution at every stage with the hope of finding global optimum solution.
-</br><b>Brute-force Algorithms :</b> Solves a problem in the most simple, direct, or obvious way.
-</br></br> <h3> Programming Concept </h3>
+  > Most of the time we hear the term called Greed and Naive/Brute-force Algorithm     
+      **Greed algorithm :** Greedy algorithm is one which finds the feasible solution at every stage with 
+      the hope of finding global optimum solution.
+      **Brute-force Algorithms :** Solves a problem in the most simple, direct, or obvious way.
+
+#### Programming Concept 
 <table>
 <tr><th>Programming Concepts</th></tr>
 <tr><td>Dynamic Programming</td></tr>
