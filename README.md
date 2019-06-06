@@ -102,7 +102,7 @@ Data structure is a particular way of storing and organizing information in a co
  
   > Most of the time we hear the term called Greed and Naive/Brute-force Algorithm     
       **Greed algorithm :** Greedy algorithm is one which finds the feasible solution at every stage with 
-      the hope of finding global optimum solution.
+      the hope of finding global optimum solution.       
       **Brute-force Algorithms :** Solves a problem in the most simple, direct, or obvious way.
 
 #### Programming Concept 
