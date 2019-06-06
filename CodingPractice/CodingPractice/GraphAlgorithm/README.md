@@ -89,3 +89,26 @@ A graph is a data structure for storing connected data like a network of people 
             return false;
         }
 ```
+### Breath First Search
+```cs
+        private bool hasPathBFS(Node source, Node destination)
+        {
+            Queue<Node> nextToVisit = new Queue<Node>();
+            HashSet<int> visited = new HashSet<int>();
+            nextToVisit.Enqueue(source);
+            while (nextToVisit.Count > 0)
+            {
+                Node node = nextToVisit.Peek();
+                nextToVisit.Dequeue();
+                if (node == destination)
+                    return true;
+                if (visited.Contains(node.id))
+                    continue;
+                visited.Add(node.id);
+                foreach (Node child in node.adjacent)
+                    nextToVisit.Enqueue(child);
+
+            }
+            return false;
+        }
+ ```
