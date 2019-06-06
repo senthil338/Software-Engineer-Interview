@@ -5,6 +5,7 @@
 3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
 
 [Binary Tree](#binarytree)
+[teee](#traversals)
 
 Some important topic to be consider:-
 1. Print the sorted order from balanced BST
@@ -171,6 +172,8 @@ Binary Tree can be implemented as shown.
         }
   }
 ```
+
+<p name="traversals></p>
 
 #### Tree Traversals
 
