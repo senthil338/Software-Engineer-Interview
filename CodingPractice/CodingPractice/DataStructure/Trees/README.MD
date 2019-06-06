@@ -1,10 +1,10 @@
-##### Source code
+##### Source code - Click below link to access source
 
 1. [Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/TreeNode.cs)
 2. [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinaryTree.cs)
 3. [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/BinarySearchTree.cs)
 
-[Binary Tree](#binarytree)
+# [Binary Tree](#binarytree)
 
 
 Some important topic to be consider:-
