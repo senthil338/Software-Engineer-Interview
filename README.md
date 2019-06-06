@@ -53,6 +53,13 @@ Data structure is a particular way of storing and organizing information in a co
          - Algorithm complexity is commonly represented with the O(n) notation, - also known as asymptotic 
          notation or “Big O notation”, where n is the function of the size of the input data. 
          We need to know how well our algorithm perform in  Best Case, Average Case and Worst Case 
+         
+ #### Most improtant complexity 
+   - O(n) Linear time find a value in an array 
+   - O(nlogn) Quick Sort
+   - (2<sup>n</sup>) Factorial 
+   - O(logn) - Binary Search
+           
    ###### Refer:- http://bigocheatsheet.com/
 
 Most interviewers won't ask about specific algorithms for binary tree balancing or other complex algorithms and 
@@ -77,7 +84,8 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
    - Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
 - [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD) 
    - A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property.
-- HashTable or Dictionary
+- [HashTable or Dictionary] 
+   - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
 
 ## Algorithm
 - Breadth-First Search
