@@ -3,7 +3,7 @@
 
 #### Important Topic 
 1. [Depth First Search](#dfs)
-2. [Breath Fisrt Search]
+2. [Breath Fisrt Search] (#bfs)
 3. Find a lowest cost
 4. Find a shortest route
 
@@ -89,6 +89,10 @@ A graph is a data structure for storing connected data like a network of people 
             return false;
         }
 ```
+
+<p name="bfs"></p>
+
+
 ### Breath First Search
 ```cs
         private bool hasPathBFS(Node source, Node destination)
