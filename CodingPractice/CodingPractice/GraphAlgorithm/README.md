@@ -46,18 +46,12 @@ Reference: [geeksforgeeks](https://www.geeksforgeeks.org/graph-data-structure-an
 A graph is a data structure for storing connected data like a network of people on a social media platform.
 
 #### Types of Graph
-1. Undirected  or bidirected graph
-<br>
-    <img src="https://github.com/senthil338/coding_interview/blob/master/Images/undirected.jpg" 
- width="150" height="150" border="4" alt="Undirected Graph" />
-2. Directed graph
-<br>
-        <img src="https://github.com/senthil338/coding_interview/blob/master/Images/directed.jpg" 
- width="150" height="150" border="4" alt="Directed Graph" />
-3. Weighted graph
-<br>
-        <img src="https://github.com/senthil338/coding_interview/blob/master/Images/weighted.jpg" 
- width="150" height="150" border="4" alt="Weighted Graph" />
+
+![alt text][graphtypes]
+
+[graphtypes]: https://github.com/senthil338/coding_interview/blob/master/Images/graphtypes.png "Types of graph"
+
+
  
  #### Number of way to represents graph 
  
