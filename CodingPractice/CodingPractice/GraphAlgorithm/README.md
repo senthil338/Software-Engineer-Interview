@@ -59,7 +59,7 @@ A graph is a data structure for storing connected data like a network of people 
         <img src="https://github.com/senthil338/coding_interview/blob/master/Images/weighted.jpg" 
  width="150" height="150" border="4" alt="Weighted Graph" />
  
- ### Number of way to represent Graph 
+ #### Number of way to represents graph 
  
 1. Adjacency Matrix - by Array
         <br><img src="https://github.com/senthil338/coding_interview/blob/master/Images/adj.jpg" 
@@ -71,7 +71,7 @@ A graph is a data structure for storing connected data like a network of people 
 
 <p name="dfs"></p>
 
-##### Depth and Breath First Search 
+### Depth and Breath First Search 
 
 The **depth-first algorithm** sticks with one path, following that path down a graph structure until it ends. The **breadth-first search** approach, however, evaluates all the possible paths from a given node equally, checking all potential vertices from one node together, and comparing them simultaneously.
 
