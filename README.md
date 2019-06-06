@@ -88,7 +88,7 @@ Data structure is a particular way of storing and organizing information in a co
    - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
 
 ## Algorithm
-- [Depth-First Search]
+- [Depth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs)
    - The depth-first algorithm sticks with one path, following that path down a graph structure until it ends
 - [Breadth-First Search] 
    - The breadth-first search approach, however, evaluates all the possible paths from a given node equally
