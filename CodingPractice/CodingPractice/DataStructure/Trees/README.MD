@@ -181,6 +181,10 @@ Binary Tree can be implemented as shown.
 2. Post-order traversal - (left-right-root)
 3. In-order traversal (left-root-right) - For Binary Search Tree "in order traversal" will return shorted list.
 
+![alt text][tree_traversal]
+
+[tree_traversal]: https://github.com/senthil338/coding_interview/blob/master/Images/tree_traversal.png "Tree Traversal" 
+
 #### Tree Traversals can be implemented as shown.
 1. Pre order
 
