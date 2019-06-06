@@ -3,7 +3,7 @@
 
 #### Important Topic 
 1. [Depth First Search](#dfs)
-2. [Breath Fisrt Search] (#bfs)
+2. [Breath Fisrt Search](#bfs)
 3. Find a lowest cost
 4. Find a shortest route
 
