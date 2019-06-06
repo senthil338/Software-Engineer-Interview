@@ -2,8 +2,8 @@
 <br>
 
 #### Important Topic 
-1. Depth First Search
-2. Breath Fisrt Search
+1. [Depth First Search](#dfs)
+2. [Breath Fisrt Search]
 3. Find a lowest cost
 4. Find a shortest route
 
@@ -69,5 +69,23 @@ A graph is a data structure for storing connected data like a network of people 
         <br><img src="https://github.com/senthil338/coding_interview/blob/master/Images/mat.jpg" 
  width="100" height="100" border="4" alt="Undirected Graph" />
 
+<p name="dfs"></p>
 
 
+#### Depth First Search
+```cs
+       private bool hasPathDFS(Node source, Node destination, HashSet<int> visited)
+        {
+            if (visited.Contains(source.id))
+                return true;
+            visited.Add(source.id);
+            if (source == destination)
+                return true;
+            foreach (Node child in source.adjacent)
+            {
+                if (hasPathDFS(child, destination, visited))
+                    return true;
+            }
+            return false;
+        }
+```
