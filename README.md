@@ -88,8 +88,10 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
    - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
 
 ## Algorithm
-- Breadth-First Search
-- Depth-First Search
+- [Depth-First Search]
+   - The depth-first algorithm sticks with one path, following that path down a graph structure until it ends
+- [Breadth-First Search] 
+   - The breadth-first search approach, however, evaluates all the possible paths from a given node equally
 - Tree Traversal
 - Merge Sort
 - QuickSort
