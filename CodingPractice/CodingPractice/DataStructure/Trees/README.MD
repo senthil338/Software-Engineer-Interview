@@ -176,6 +176,12 @@ Binary Tree can be implemented as shown.
 <p name="traversals"></p>
 
 #### Tree Traversals
+A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds.
+
+1. Depth-first traversal
+2. Breadth-first traversal
+
+There are three different types of depth-first traversals.
 
 1. Pre-order traversal (root-left-right)
 2. Post-order traversal - (left-right-root)
