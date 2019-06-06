@@ -173,7 +173,7 @@ Binary Tree can be implemented as shown.
   }
 ```
 
-<p name="traversals></p>
+<p name="traversals"></p>
 
 #### Tree Traversals
 
