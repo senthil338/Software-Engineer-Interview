@@ -71,7 +71,9 @@ A graph is a data structure for storing connected data like a network of people 
 
 <p name="dfs"></p>
 
-##### Depth and Breath First Search Representaion
+##### Depth and Breath First Search 
+
+The **depth-first algorithm** sticks with one path, following that path down a graph structure until it ends. The **breadth-first search** approach, however, evaluates all the possible paths from a given node equally, checking all potential vertices from one node together, and comparing them simultaneously.
 
   <br><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Justsearch.gif" 
  width="50%" height="50%" border="4" alt="Undirected Graph" /> <br>
