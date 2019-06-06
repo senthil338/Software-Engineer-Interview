@@ -2,8 +2,8 @@
 <br>
 
 #### Important Topic 
-1. [Depth First Search](#dfs) - Use stack 
-2. [Breath Fisrt Search](#bfs) - Use Queue
+1. [Depth First Search](#dfs) - Uses stack 
+2. [Breath Fisrt Search](#dfs) - Uses Queue
 3. Find a lowest cost
 4. Find a shortest route
 
