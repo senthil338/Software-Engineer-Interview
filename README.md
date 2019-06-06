@@ -92,7 +92,7 @@ Data structure is a particular way of storing and organizing information in a co
    - The depth-first algorithm sticks with one path, following that path down a graph structure until it ends
 - [Breadth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs)
    - The breadth-first search approach, however, evaluates all the possible paths from a given node equally
-- Tree Traversal
+- [Tree Traversal](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#traversals)
 - Merge Sort
 - QuickSort
 - Insertion sort, Selection sort, Bubble sort. (just to let you know)
