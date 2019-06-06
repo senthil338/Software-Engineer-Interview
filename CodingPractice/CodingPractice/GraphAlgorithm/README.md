@@ -2,8 +2,8 @@
 <br>
 
 #### Important Topic 
-1. [Depth First Search](#dfs)
-2. [Breath Fisrt Search](#bfs)
+1. [Depth First Search](#dfs) - Use stack 
+2. [Breath Fisrt Search](#bfs) - Use Queue
 3. Find a lowest cost
 4. Find a shortest route
 
@@ -71,8 +71,16 @@ A graph is a data structure for storing connected data like a network of people 
 
 <p name="dfs"></p>
 
+##### Depth and Breath First Search Representaion
 
-#### Depth First Search
+  <br><img src="https://github.com/senthil338/coding_interview/blob/master/Images/Justsearch.gif" 
+ width="50%" height="50%" border="4" alt="Undirected Graph" /> <br>
+ 
+ 
+Time Complexity for both : O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
+
+
+##### Depth First Search
 ```cs
        private bool hasPathDFS(Node source, Node destination, HashSet<int> visited)
         {
@@ -93,7 +101,7 @@ A graph is a data structure for storing connected data like a network of people 
 <p name="bfs"></p>
 
 
-### Breath First Search
+##### Breath First Search
 ```cs
         private bool hasPathBFS(Node source, Node destination)
         {
@@ -116,3 +124,13 @@ A graph is a data structure for storing connected data like a network of people 
             return false;
         }
  ```
+##### Differences between DFS and BFS
+
+  - If you know a solution is not far from the root of the tree, a breadth first search (BFS) might be better.
+  - If the tree is very deep and solutions are rare, depth first search (DFS) might take an extremely long time, but BFS could be faster.
+
+  - If the tree is very wide, a BFS might need too much memory, so it might be completely impractical.
+
+  - If solutions are frequent but located deep in the tree, BFS could be impractical.
+
+  - If the search tree is very deep you will need to restrict the search depth for depth first search (DFS), anyway (for example with iterative deepening).
