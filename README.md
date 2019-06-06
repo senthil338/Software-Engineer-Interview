@@ -84,7 +84,7 @@ Most interviewers won't ask about specific algorithms for binary tree balancing 
    - Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
 - [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD) 
    - A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property.
-- [HashTable or Dictionary] 
+- [HashTable or Dictionary](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/HashTable/README.MD)
    - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
 
 ## Algorithm
