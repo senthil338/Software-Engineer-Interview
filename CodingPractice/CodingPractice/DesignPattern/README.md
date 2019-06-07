@@ -1,4 +1,4 @@
-[test](#factory)
+
 <p name="factory"></p>
 
 ### Factory Method
