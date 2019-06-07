@@ -18,7 +18,7 @@ Suggestions and comments are welcome.
 
 * [Technical Interview Questions](#tech)
    * [Data Structures and Algorithms](#dsalg)
-   * [Design Pattern]
+   * [Design Pattern](#designpattern)
    * [DBMS](#dbms)
    * [Operating System](#os)(#designpattern)
    * [System Design](#design)
@@ -103,11 +103,29 @@ Method for solving a problem
 </table>
 
 
+<p name="designpattern"></p>
 
+#### Design Patterns
 
+  - **Creational design patterns** are used to design the instantiation process of objects. The creational pattern uses the inheritance to vary the object creation
+  - **Structural patterns** are concerned with how classes and objects are composed to form larger structures. Structural class patterns
+use inheritance to compose interfaces or implementations.
+  - **Behavioral patterns** are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns
+describe not just patterns of objects or classes but also the patterns of communication between them.
 
-
-<p name="graph"></p>
+| Creational Patterns  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Structural Patterns  | Behavioral Patterns |
+| --- | --- |  --- | 
+| Abstract Factory	|  Adapter | Chain of Responsibility	|
+| Builder	|  Bridge | Command	|
+| Factory Method	|  Composite | Interpreter	|
+| Prototype	|  Decorator | Iterator	|
+| Singleton	|  Facade | Mediator	|
+| 	|  Flyweight | Memento	|
+| 	|  Proxy | Observer	|
+| 	|   | State	|
+| 	|   | Strategy	|
+| 	|   | Template Method	|
+| 	|   | Visitor	|
 
 
 
