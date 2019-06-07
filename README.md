@@ -63,11 +63,11 @@ Data structure is a particular way of storing and organizing information in a co
   > Most interviewers won't ask about specific algorithms for binary tree balancing or 
      other complex algorithms and You're usually only expected to know the basics.
  
-## Data Structure
+### Data Structure
 Method to store information
 
 | Data Structure |   | 
-| --- | --- | 
+| -------------- | --------- | 
 | [Array](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Array) | An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index. |	
 | [Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList) | A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers. |	
 | ArrayList | It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList. |	
@@ -78,7 +78,7 @@ Method to store information
 | [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD)  | A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property. |	
 | [HashTable or Dictionary](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/HashTable/README.MD) | A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key |	
 
-#### Algorithm
+### Algorithm
 Method for solving a problem
 
 | Algorithm |   | 
