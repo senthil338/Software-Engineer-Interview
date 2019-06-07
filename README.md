@@ -87,18 +87,17 @@ Data structure is a particular way of storing and organizing information in a co
 - [HashTable or Dictionary](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/HashTable/README.MD)
    - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
 
-## Algorithm
-- [Depth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs)
-   - The depth-first algorithm sticks with one path, following that path down a graph structure until it ends
-- [Breadth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs)
-   - The breadth-first search approach, however, evaluates all the possible paths from a given node equally
-- [Tree Traversal](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#traversals)
-   - A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal (BFS, Inorder, Postorder, Preorder).
-- [Merge Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) 
-- [QuickSort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)
-- [Insertion sort, Selection sort, Bubble sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)
-- Binary Search
-- Dijkstra
+| Algorithm |   | 
+| --- | --- | 
+| [Depth-First-Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs)	| The depth-first algorithm sticks with one path, following that path down a graph structure until it ends |	
+| [Breadth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs) |	The breadth-first search approach, however, evaluates all the possible paths from a given node equally |	
+| [Tree Traversal](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#traversals) | A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal (BFS, Inorder, Postorder, Preorder) | 
+| [Merge Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)  |	O(n) | 
+| [QuickSort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) | O(n) |	
+| [Insertion sort, Selection sort, Bubble-sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	O(n<sup>2</sup>) | 
+| Binary Search |	O(n<sup>2</sup>) | 
+| Dijkstra |	O(n<sup>2</sup>) | 
+
 
  
   > Most of the time we hear the term called Greed and Naive/Brute-force Algorithm     
