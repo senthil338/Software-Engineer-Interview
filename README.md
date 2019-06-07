@@ -51,14 +51,9 @@ Data structure is a particular way of storing and organizing information in a co
          Algorithm complexity is commonly represented with the O(n) notation, - also known as asymptotic 
          notation or “Big O notation”, where n is the function of the size of the input data. 
          We need to know how well our algorithm perform in  Best Case, Average Case and Worst Case 
-         
- #### Most improtant complexity 
-   - O(n) Linear time find a value in an array 
-   - O(nlogn) Quick Sort
-   - (2<sup>n</sup>) Factorial 
-   - O(logn) - Binary Search
+
            
-   ###### Refer:- http://bigocheatsheet.com/
+###### Refer:- http://bigocheatsheet.com/
 
   > Most interviewers won't ask about specific algorithms for binary tree balancing or 
      other complex algorithms and You're usually only expected to know the basics.
@@ -94,8 +89,6 @@ Method for solving a problem
 | Binary Search |	O(n log(n)) | N/A  |
 | Dijkstra |	O(n<sup>2</sup>) | N/A |
 
-
- 
   > Most of the time we hear the term called Greed and Naive/Brute-force Algorithm     
       **Greed algorithm :** Greedy algorithm is one which finds the feasible solution at every stage with 
       the hope of finding global optimum solution.       
