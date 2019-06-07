@@ -8,7 +8,10 @@ namespace ConsoleApplication1.DesignPattern
 {
     public class FactoryMethod
     {
-
+        /*
+        The Factory Method Pattern, suited for this situation, defines an interface for creating an object, but let subclasses decide which
+        class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+        */
         /*
          1. Product - This is an interface for creating the objects.
          2. ConcreteProduct - This is a class which implements the Product interface.
