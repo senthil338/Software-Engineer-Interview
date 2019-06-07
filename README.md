@@ -42,9 +42,7 @@ Data structure is a particular way of storing and organizing information in a co
 3. Data Structure allows efficient data search and retrieval.
 4. Specific Data structures are decided to work for specific problems.
  </p>
- 
-    - Data structure: Method to store information
-    - Algorithm: Method for solving a problem.
+
 
 
   - <b>Time complexity</b> of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
@@ -66,26 +64,22 @@ Data structure is a particular way of storing and organizing information in a co
      other complex algorithms and You're usually only expected to know the basics.
  
 ## Data Structure
-- [Array](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Array) 
-    - An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index.
-- [Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList) 
-   - A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers.
-- ArrayList 
-   - It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList.
-- [Trees](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees) -> Tree, [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree), [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree).
-   - A tree is a collection of nodes connected by directed (or undirected) edges.
-- [Tries](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trie) 
-   - Trie is an efficient information retrieval data structure.
-- [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) 
-   - A graph is a data structure where a node can have zero or more adjacent elements.
-- [Stack](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Stack) 
-   - Stack is a linear data structure which represents a simple last-in-first-out (LIFO) 
-- [Queue](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Queue) 
-   - Queue is a linear data structure which represents a simple first-in-first-out (FIFO) 
-- [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD) 
-   - A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property.
-- [HashTable or Dictionary](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/HashTable/README.MD)
-   - A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key
+Method to store information
+
+| Data Structure |   | 
+| --- | --- | 
+| [Array](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Array) | An array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index. |	
+| [Linked List](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/LinkedList) | A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers. |	
+| ArrayList | It is similar to an array, except that it grows automatically as you add items in it. Unlike an array, you don't need to specify the size of ArrayList. |	
+| [Trees](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Trees) | [Binary Search Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree), [Binary Tree](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#binarytree) A tree is a collection of nodes connected by directed (or undirected) edges |	
+| [Graph](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/GraphAlgorithm) | A graph is a data structure where a node can have zero or more adjacent elements. |	
+| [Stack](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Stack)  | Stack is a linear data structure which represents a simple last-in-first-out (LIFO) |	
+| [Queue](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/DataStructure/Queue) | Queue is a linear data structure which represents a simple first-in-first-out (FIFO)  |	
+| [Heap](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Heap/README.MD)  | A Heap or Binary heap is a complete binary tree which satisfies the heap ordering property. |	
+| [HashTable or Dictionary](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/HashTable/README.MD) | A hash table is a data structure that is used to store keys/value pairs, and retrive value by passing key |	
+
+#### Algorithm
+Method for solving a problem
 
 | Algorithm |   | 
 | --- | --- | 
