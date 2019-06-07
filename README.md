@@ -18,8 +18,9 @@ Suggestions and comments are welcome.
 
 * [Technical Interview Questions](#tech)
    * [Data Structures and Algorithms](#dsalg)
+   * [Design Pattern]
    * [DBMS](#dbms)
-   * [Operating System](#os)
+   * [Operating System](#os)(#designpattern)
    * [System Design](#design)
    * [Miscellaneous](#misc)
 * [References](#ref)
