@@ -95,8 +95,7 @@ Data structure is a particular way of storing and organizing information in a co
 - [Tree Traversal](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#traversals)
    - A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal (BFS, Inorder, Postorder, Preorder).
 - [Merge Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) 
-   - Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being Ο(n log n). It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
-- QuickSort
+- [QuickSort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)
 - [Insertion sort, Selection sort, Bubble sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)
 - Binary Search
 - Dijkstra
