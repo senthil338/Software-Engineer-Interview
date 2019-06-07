@@ -117,7 +117,7 @@ describe not just patterns of objects or classes but also the patterns of commun
 | --- | --- |  --- | 
 | [Abstract Factory](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/AbstractFactory.cs)	|  Adapter | Chain of Responsibility	|
 | Builder	|  Bridge | Command	|
-| Factory Method	|  Composite | Interpreter	|
+| [Factory Method](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/FactoryDesign.cs)	|  Composite | Interpreter	|
 | Prototype	|  Decorator | Iterator	|
 | Singleton	|  Facade | Mediator	|
 | 	|  Flyweight | Memento	|
