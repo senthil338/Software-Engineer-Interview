@@ -1,9 +1,5 @@
 # Software Engineering interview question and answer with example problems
 
-My name is Senthil Ramachandran and I am a software engineering having 13 years of experince.
-
-I can be reached at 786.senthil@gmail.com
-
 Please provide your suggestion to make this document very useful.
 
 #### I have consider the following facts while preparting this document
