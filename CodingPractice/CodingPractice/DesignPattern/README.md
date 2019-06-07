@@ -1,3 +1,5 @@
+[test](#factory)
+<p name="factory"></p>
 
 ### Factory Method
 The Factory Method Pattern, suited for this situation, defines an interface for creating an object, but let subclasses decide which
