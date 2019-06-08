@@ -6,12 +6,121 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.DesignPattern
 {
+#region Factory Example code for GitHub post
+    #region 1. Product interface or abstract class
+    public interface XMLParser
+    {
+        string parse();
+    }
+    #endregion
+
+    #region 2. ConcreteProduct like different type of xmlParser  which implement common product behavior
+    public class ErrorXMLParser : XMLParser
+    {
+        public string parse()
+        {
+            Console.WriteLine("Parsing error XML...");
+            return "Error XML Message";
+        }
+    }
+    public class FeedbackXML : XMLParser
+    {
+
+        public String parse()
+        {
+            Console.WriteLine("Parsing feedback XML...");
+            return "Feedback XML Message";
+        }
+    }
+    public class OrderXMLParser : XMLParser
+    {
+
+        public String parse()
+        {
+            Console.WriteLine("Parsing order XML...");
+            return "Order XML Message";
+        }
+    }
+    public class ResponseXMLParser : XMLParser
+    {
+        public String parse()
+        {
+            Console.WriteLine("Parsing response XML...");
+            return "Response XML Message";
+        }
+    }
+    #endregion
+    #region 3. Creator -> interface or abstract class for concreate class interface whihc are implemented by Product 
+    public abstract class DisplayService
+    {
+        public void display()
+        {
+            XMLParser parser = getParser();
+            String msg = parser.parse();
+            Console.WriteLine(msg);
+        }
+        protected abstract XMLParser getParser();
+
+    }
+    #endregion
+
+    #region 4. ConcreteCreator , implement creator
+    public class ErrorXMLDisplayService : DisplayService
+    {
+        protected override XMLParser getParser()
+        {
+            return new ErrorXMLParser();
+        }
+    }
+    public class FeedbackXMLDisplayService : DisplayService
+    {
+        protected override XMLParser getParser()
+        {
+            return new FeedbackXML();
+        }
+    }
+    
+    public class OrderXMLDisplayService : DisplayService
+    {
+        protected override XMLParser getParser()
+        {
+            return new OrderXMLParser();
+        }
+    }
+
+    public class DisplayFactoryService
+    {
+        public DisplayService ParseXML(XMLTypes xmlTypes)
+        {
+            switch (xmlTypes)
+            {
+                case XMLTypes.OrderXML:
+                    return new OrderXMLDisplayService();
+                case XMLTypes.FeedbackXML:
+                    return new FeedbackXMLDisplayService();
+                case XMLTypes.ErrorXML:
+                    return new ErrorXMLDisplayService();
+                default:
+                    throw new ApplicationException("XML cannot be created");
+            }
+            
+        }
+
+    }
+    #endregion
+    public enum XMLTypes
+    {
+        OrderXML,
+        ErrorXML,
+        FeedbackXML
+
+    }
+    #endregion
+
+#region 2nd Example
     public class FactoryMethod
     {
-        /*
-        The Factory Method Pattern, suited for this situation, defines an interface for creating an object, but let subclasses decide which
-        class to instantiate. Factory Method lets a class defer instantiation to subclasses.
-        */
+
         /*
          1. Product - This is an interface for creating the objects.
          2. ConcreteProduct - This is a class which implements the Product interface.
@@ -43,8 +152,10 @@ namespace ConsoleApplication1.DesignPattern
         /// </summary>
         public class Bus : IDrive
         {
+            
             public void Drive()
             {
+                
                 Console.WriteLine("Bus can drive {0} km", 20);
             }
         }
@@ -111,4 +222,5 @@ namespace ConsoleApplication1.DesignPattern
             vehicle.Drive();
         }
     }
+#endregion
 }
