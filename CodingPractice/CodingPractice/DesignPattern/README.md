@@ -30,6 +30,9 @@ class to instantiate. Factory Method lets a class defer instantiation to subclas
 
 ### Abstract Factory Pattern
 
+<p name="abstractfactory"></p>
+
+A shop has selling the computer spare parts and their business not going much as expected as people are no longer fixing the existing computer and shop owner want to increase his business by assembling computer based on customer needs selling. 
 
 In Abstract Factory we define an interface which will create families of related or dependent objects. In simple words, interface will expose multiple methods each of which will create some object. Again, here method return types will be generic interfaces. All this objects will together become the part of some important functionality.
 
