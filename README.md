@@ -6,7 +6,7 @@ Please provide your suggestion to make this document very useful.
 1. You are expecting an interview soon and you want to cover the most of the important topic as early as possible.
 2. Candidate have some basic computer science fundamental knowledge.
 3. Speding more than 10 mins on each topic will not be worth if you have tight deadline.
-4. Need single source of document for an interview, referrencing multiple website require considrable amount of time and efforts. 
+4. Need single source of document for an interview, referring multiple website require considrable amount of time and efforts. 
 5. Each topic required some interview questions and answers. 
 
 Note:- Clicking on each link will navigate us to detail page which contains source code using C# and problem you may encounter during interview
