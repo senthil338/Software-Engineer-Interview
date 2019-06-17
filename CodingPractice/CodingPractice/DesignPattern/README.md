@@ -35,13 +35,14 @@ class to instantiate. Factory Method lets a class defer instantiation to subclas
 
 In Abstract Factory we define an interface which will create families of related or dependent objects. In simple words, interface will expose multiple methods each of which will create some object. Again, here method return types will be generic interfaces. All this objects will together become the part of some important functionality
 
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/AbstractFactory.cs)
+
 #### Problem Statement
 
 A shop has selling the computer spare parts and their business not going well as expected as people are no longer buyig the spare parts . So he decided to assemble the computer and sell it to customer based on their needs i.e low budget , high budget and medium budjet.
 He asked his employee to build a product with the budget. So they strated preparting computer with pre defined configuration. 
 In computer keyboard, ram, hard disk consider as a product(Factory) and it can be configured based on the budget and make CPU as a final  product(Abstract)
 
-[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/AbstractFactory.cs)
 
 ## Behavioral Patterns
 <p name="observer"></p>
@@ -52,6 +53,8 @@ In computer keyboard, ram, hard disk consider as a product(Factory) and it can b
 The Observer Pattern is a kind of behavior pattern which is concerned with the assignment of responsibilities between objects.
 The behavior patterns characterize complex control flows that are difficult to follow at run-time
 
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/ObserverPattern.cs)
+ 
 #### Problem Statement
 
 Sports Lobby is a fantastic sports site for sport lovers. They cover almost all kinds of sports and provide the latest news,
@@ -67,7 +70,7 @@ update, the system should update the subscribed users by sending them the SMS.
 This situation clearly shows one-to-many mapping between the match and the users, as there could be many users to subscribe to
 a single match. The Observer Design Pattern is best suited to this situation, let’s see about this pattern and then create the feature
 for Sport Lobby.    
- [Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/ObserverPattern.cs)
+
 
 
 
