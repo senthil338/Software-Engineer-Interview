@@ -47,7 +47,10 @@ In computer keyboard, ram, hard disk consider as a product(Factory) and it can b
 
 ### Observer Pattern
 
+The Observer Pattern is a kind of behavior pattern which is concerned with the assignment of responsibilities between objects.
+The behavior patterns characterize complex control flows that are difficult to follow at run-time
 
+#### Problem Statement
 
 Sports Lobby is a fantastic sports site for sport lovers. They cover almost all kinds of sports and provide the latest news,
 information, matches scheduled dates, information about a particular player or a team. Now, they are planning to provide live
