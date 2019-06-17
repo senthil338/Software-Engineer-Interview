@@ -28,9 +28,11 @@ The Factory Method Pattern, suited for this situation, defines an interface for 
 class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 
+<p name="abstractfactory"></p>
+
 ### Abstract Factory Pattern
 
-<p name="abstractfactory"></p>
+
 
 In Abstract Factory we define an interface which will create families of related or dependent objects. In simple words, interface will expose multiple methods each of which will create some object. Again, here method return types will be generic interfaces. All this objects will together become the part of some important functionality
 
@@ -40,10 +42,12 @@ A shop has selling the computer spare parts and their business not going well as
 He asked his employee to build a product with the budget. So they strated preparting computer with pre defined configuration. 
 In computer keyboard, ram, hard disk consider as a product(Factory) and it can be configured based on the budget and make CPU as a final  product(Abstract)
 
+<p name="observer"></p>
+
 
 ### Observer Pattern
 
-<p name="observer"></p>
+
 
 Sports Lobby is a fantastic sports site for sport lovers. They cover almost all kinds of sports and provide the latest news,
 information, matches scheduled dates, information about a particular player or a team. Now, they are planning to provide live
