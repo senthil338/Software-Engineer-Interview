@@ -1,7 +1,8 @@
 
 <p name="factory"></p>
 
-### Factory Method
+## Creational Patterns 
+### Factory Method 
 The Factory Method Pattern, suited for this situation, defines an interface for creating an object, but let subclasses decide which
         class to instantiate. Factory Method lets a class defer instantiation to subclasses.
    
@@ -42,6 +43,7 @@ A shop has selling the computer spare parts and their business not going well as
 He asked his employee to build a product with the budget. So they strated preparting computer with pre defined configuration. 
 In computer keyboard, ram, hard disk consider as a product(Factory) and it can be configured based on the budget and make CPU as a final  product(Abstract)
 
+## Behavioral Patterns
 <p name="observer"></p>
 
 
