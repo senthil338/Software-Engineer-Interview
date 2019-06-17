@@ -71,6 +71,26 @@ This situation clearly shows one-to-many mapping between the match and the users
 a single match. The Observer Design Pattern is best suited to this situation, let’s see about this pattern and then create the feature
 for Sport Lobby.    
 
+## Structural Patterns
+
+### Adapter
+It allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.   
+
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/AdapterPattern.cs)
+
+#### Problem Statement
+A software developer, Max, has worked on an e-commerce website. The website allows users to shop and pay online. The site
+is integrated with a 3rd party payment gateway, through which users can pay their bills using their credit card. Everything was
+going well, until his manager called him for a change in the project.
+The manager told him that they are planning to change the payment gateway vendor, and he has to implement that in the
+code.
+The problem that arises here is that the site is attached to the Xpay payment gateway which takes an Xpay type of object. The
+new vendor, PayD, only allows the PayD type of objects to allow the process. Max doesn’t want to change the whole set of 100
+of classes which have reference to an object of type XPay. This also raises the risk on the project, which is already running on the
+production. Neither he can change the 3rd party tool of the payment gateway. The problem has occurred due to the incompatible
+interfaces between the two different parts of the code. In order to get the process work, Max needs to find a way to make the
+code compatible with the vendor’s provided API.    
+Now, the current code interface is not compatible with the new vendor’s interface.
 
 
 
