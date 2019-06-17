@@ -72,6 +72,7 @@ a single match. The Observer Design Pattern is best suited to this situation, le
 for Sport Lobby.    
 
 ## Structural Patterns
+<p name="adapter"></p>
 
 ### Adapter
 It allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.   
