@@ -121,7 +121,7 @@ describe not just patterns of objects or classes but also the patterns of commun
 | Prototype	|  Decorator | Iterator	|
 | Singleton	|  Facade | Mediator	|
 | 	|  Flyweight | Memento	|
-| 	|  Proxy | Observer	|
+| 	|  Proxy | [Observer](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#observer)	|
 | 	|   | State	|
 | 	|   | Strategy	|
 | 	|   | Template Method	|
