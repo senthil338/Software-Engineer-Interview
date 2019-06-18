@@ -108,7 +108,7 @@ Method for solving a problem
 #### Design Patterns
 
   - [Creational design patterns](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#creational) are used to design the instantiation process of objects. The creational pattern uses the inheritance to vary the object creation
-  - **Structural patterns** are concerned with how classes and objects are composed to form larger structures. Structural class patterns
+  - [Structural patterns](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#structural) are concerned with how classes and objects are composed to form larger structures. Structural class patterns
 use inheritance to compose interfaces or implementations.
   - [Behavioral patterns](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#behavioral)  are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns
 describe not just patterns of objects or classes but also the patterns of communication between them.
