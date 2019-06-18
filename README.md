@@ -79,10 +79,10 @@ Method for solving a problem
 | [Breadth-First Search](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/GraphAlgorithm/README.md#dfs) |	The breadth-first search approach, however, evaluates all the possible paths from a given node equally |	N/A |
 | [Tree Traversal](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DataStructure/Trees/README.MD#traversals) | A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal (BFS, Inorder, Postorder, Preorder) | N/A |
 | [Merge Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm)  |	Divide and Conquer algorithm  | Yes |
-| [QuickSort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) | Divide and Conquer algorithm  |	No |
-| [Insertion sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 |  Yes |
-| [Selection sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | No |
-| [Bubble-sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | Yes |
+| [Quick Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) | Divide and Conquer algorithm  |	No |
+| [Insertion Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 |  Yes |
+| [Selection Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | No |
+| [Bubble Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | Yes |
 | Binary Search |	O(n log(n)) | N/A  |
 | Dijkstra |	O(n<sup>2</sup>) | N/A |
 
