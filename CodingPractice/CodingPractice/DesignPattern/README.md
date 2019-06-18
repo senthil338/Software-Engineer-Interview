@@ -58,6 +58,29 @@ A shop has selling the computer spare parts and their business not going well as
 He asked his employee to build a product with the budget. So they strated preparting computer with pre defined configuration. 
 In computer keyboard, ram, hard disk consider as a product(Factory) and it can be configured based on the budget and make CPU as a final  product(Abstract)
 
+<p name="builder"></p>
+
+### Builder
+
+The intent of the Builder Pattern is to separate the construction of a complex object from its representation, so that the same
+construction process can create different representations. This type of separation reduces the object size. The design turns out to
+be more modular with each implementation contained in a different builder object. Adding a new implementation (i.e., adding a
+new builder) becomes easier. The object construction process becomes independent of the components that make up the object.
+This provides more control over the object construction process.
+
+[Source code](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/Builder.cs)
+
+#### Problem Statement
+A Car company which shows its different cars using a graphical model to
+its customers. The company has a graphical tool which displays the car on the screen. The requirement of the tool is to provide
+a car object to it. The car object should contain the car’s specifications. The graphical tool uses these specifications to display
+the car. The company has classified its cars into different classifications like Sedan or Sports Car. There is only one car object,
+and our job is to create the car object according to the classification. For example, for a Sedan car, a car object according to the
+sedan specification should be built or, if a sports car is required, then a car object according to the sports car specification should
+be built. Currently, the Company wants only these two types of cars, but it may require other types of cars also in the future.
+We will create two different builders, one of each classification, i.e., for sedan and sports cars. These two builders will help us in
+building the car object according to its specification. But before that, let’s have discuss some details of the Builder Pattern.
+
 <p name="behavioral"></p>
 
 ## Behavioral Patterns
