@@ -119,7 +119,7 @@ describe not just patterns of objects or classes but also the patterns of commun
 | Builder	|  Bridge | Command	|
 | [Factory Method](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#factory)	|  Composite | Interpreter	|
 | Prototype	|  Decorator | Iterator	|
-| Singleton	|  Facade | Mediator	|
+| Singleton	|  [Facade](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#facade) | Mediator	|
 | 	|  Flyweight | Memento	|
 | 	|  Proxy | [Observer](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#observer)	|
 | 	|   | State	|
