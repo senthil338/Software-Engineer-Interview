@@ -1,5 +1,5 @@
 
-<p name="factory"></p>
+
 <p name="creational"></p>
 
 
@@ -14,6 +14,8 @@
    - A fully initialized instance to be copied or cloned
 - Singleton
    - A class of which only a single instance can exist
+
+<p name="factory"></p>
 
 ### Factory Method 
 The Factory Method Pattern, suited for this situation, defines an interface for creating an object, but let subclasses decide which
@@ -56,10 +58,10 @@ A shop has selling the computer spare parts and their business not going well as
 He asked his employee to build a product with the budget. So they strated preparting computer with pre defined configuration. 
 In computer keyboard, ram, hard disk consider as a product(Factory) and it can be configured based on the budget and make CPU as a final  product(Abstract)
 
+<p name="behavioral"></p>
 
 ## Behavioral Patterns
-<p name="observer"></p>
-<p name="behavioral"></p>
+
 
 - Chain of responsibility
    - A way of passing a request between a chain of objects
@@ -86,6 +88,8 @@ In computer keyboard, ram, hard disk consider as a product(Factory) and it can b
 - Visitor
    - Defines a new operation to a class without change
 
+<p name="observer"></p>
+
 
 ### Observer Pattern
 
@@ -110,9 +114,9 @@ This situation clearly shows one-to-many mapping between the match and the users
 a single match. The Observer Design Pattern is best suited to this situation, let’s see about this pattern and then create the feature
 for Sport Lobby.    
 
-## Structural Patterns
-<p name="adapter"></p>
 <p name="structural"></p>
+
+## Structural Patterns
 
 - Adapter
    - Match interfaces of different classes
@@ -130,6 +134,8 @@ for Sport Lobby.
    - Restricts accessor/mutator access
 - Proxy
    - An object representing another object
+
+<p name="adapter"></p>
 
 
 ### Adapter
