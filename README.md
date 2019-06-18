@@ -116,7 +116,7 @@ describe not just patterns of objects or classes but also the patterns of commun
 | Creational Patterns  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Structural Patterns  | Behavioral Patterns |
 | --- | --- |  --- | 
 | [Abstract Factory](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#abstractfactory) 	|  [Adapter](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#adapter) | Chain of Responsibility	|
-| Builder	|  Bridge | Command	|
+| [Builder](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#builder) 	|  Bridge | Command	|
 | [Factory Method](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#factory)	|  Composite | Interpreter	|
 | Prototype	|  Decorator | Iterator	|
 | Singleton	|  [Facade](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#facade) | Mediator	|
