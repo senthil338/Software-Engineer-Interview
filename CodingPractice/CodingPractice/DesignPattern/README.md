@@ -93,6 +93,8 @@ interfaces between the two different parts of the code. In order to get the proc
 code compatible with the vendor’s provided API. Now, the current code interface is not compatible with the new vendor’s interface.
 
 <p name="facade"></p>
+
+
 ### Facade Pattern
 
 The Facade Pattern makes a complex interface easier to use, using a Facade class. The Facade Pattern provides a unified interface
