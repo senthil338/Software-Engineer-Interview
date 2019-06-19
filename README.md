@@ -91,7 +91,7 @@ Method for solving a problem
       the hope of finding global optimum solution.       
       **Brute-force Algorithms :** Solves a problem in the most simple, direct, or obvious way.
 
-#### Programming Concept 
+### Programming Concept 
 |   Programming Concepts |   | 
 | --- | --- | 
 |  [Dynamic Programming](https://www.youtube.com/watch?v=5dRGRueKU3M) |  Dynamic Programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions using a memory. | 
@@ -102,7 +102,7 @@ Method for solving a problem
 
 <p name="designpattern"></p>
 
-#### Design Patterns
+### Design Patterns
 
   - [Creational design patterns](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#creational) are used to design the instantiation process of objects. The creational pattern uses the inheritance to vary the object creation
   - [Structural patterns](https://github.com/senthil338/coding_interview/blob/master/CodingPractice/CodingPractice/DesignPattern/README.md#structural) are concerned with how classes and objects are composed to form larger structures. Structural class patterns
@@ -124,5 +124,7 @@ describe not just patterns of objects or classes but also the patterns of commun
 | 	|   | Template Method	|
 | 	|   | Visitor	|
 
+<p name="dbms"></b>
 
-
+### DBMS
+A database management system (DBMS) is system software for creating and managing databases. The DBMS provides users and programmers with a systematic way to create, retrieve, update and manage data.
