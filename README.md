@@ -20,7 +20,7 @@ Suggestions and comments are welcome.
    * [Data Structures and Algorithms](#dsalg)
    * [Design Pattern](#designpattern)
    * [DBMS](#dbms)
-   * [Operating System](#os)(#designpattern)
+   * [Operating System](#os)
    * [System Design](#design)
    * [Miscellaneous](#misc)
 * [References](#ref)
@@ -94,22 +94,11 @@ Method for solving a problem
 #### Programming Concept 
 |   Programming Concepts |   | 
 | --- | --- | 
-|  Dynamic Programming |  Dynamic Programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions using a memory. | 
-|  Recursion | When a function calls itself, its called Recursion. Recursion is useful in solving problems which can be broken down into smaller problems of the same kind.  |
-|   Backtracking  |  In backtracking we can build a solution step by step using recursion; if during the process we realise that is not going to be a valid solution, then we stop computing that solution and we return back to the step before (backtrack)  | 
-|  Big O Time and Space complexcity  |   Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or “Big O notation”, where n is the function of the size of the input data. | 
-|   Memory  | **Stack** Variables allocated on the stack are stored directly to the memory and access to this memory is very fast, and it's allocation is dealt with when the program is compiled. **Heap** Variables allocated on the heap have their memory allocated at run time and accessing this memory is a bit slower, but the heap size is only limited by the size of virtual memory.    | 
-
-<table>
-<tr><th>Programming Concepts</th></tr>
-<tr><td</td></tr>
-<tr><td>Backtracking</td></tr>
-<tr><td>Big O Time and Space complexcity</td></tr>
-<tr><td>Memory </td></tr>
-<tr><td>Recursion</td></tr>
-
-</table>
-
+|  [Dynamic Programming](https://www.youtube.com/watch?v=5dRGRueKU3M) |  Dynamic Programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions using a memory. | 
+|  [Recursion](https://www.youtube.com/watch?v=4V30R3I1vLI) | When a function calls itself, its called Recursion. Recursion is useful in solving problems which can be broken down into smaller problems of the same kind.  |
+|   [Backtracking](https://www.youtube.com/watch?v=DKCbsiDBN6c)  |  In backtracking we can build a solution step by step using recursion; if during the process we realise that is not going to be a valid solution, then we stop computing that solution and we return back to the step before (backtrack)  | 
+|  [Big O](https://www.youtube.com/watch?v=A03oI0znAoc)  |   Algorithm complexity is commonly represented with the O(n) notation, also known as asymptotic notation or “Big O notation”, where n is the function of the size of the input data. | 
+|   Memory  | **Stack** Variables allocated on the stack are stored directly to the memory and access to this memory is very fast, and it's allocation is dealt with when the program is compiled.   <br>   **Heap** Variables allocated on the heap have their memory allocated at run time and accessing this memory is a bit slower, but the heap size is only limited by the size of virtual memory.    | 
 
 <p name="designpattern"></p>
 
