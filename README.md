@@ -12,7 +12,7 @@ Please provide your suggestion to make this document very useful.
 Note:- Clicking on each link will navigate us to detail page which contains source code using C# and problem you may encounter during interview
 
 
-This Github repository will covers most of the software engineering interview  question and answers , also reference for the questions <b> (leetcode, geeksforgeeks,hackerrank,hackerearth, youtupe etc).</b> , any one have good understanding of object oriented programming  can able to understand the code. I started documenting all together and provide the single source for an interview preparation. This will not cover 100% interview problem but it will help us to understand all the important topics and it covers some overview of Data Structure and Algorithm, Design Pattern, OOPS, Object Oriented design for a realtime problem, DBMS (SQL and NOSQL), Network, Problem Solving and System Design. I will keep update this repostory as I learn. Basic understading of programming language is require to understand the code.
+This Github repository will covers most of the software engineering interview  question and answers , also reference for the questions <b> (leetcode, geeksforgeeks,hackerrank,hackerearth, youtupe etc).</b> , any one have good understanding of object oriented programming  can able to understand the code. I started documenting all together and provide the single source for an interview preparation. This will not cover 100% interview problem but it will help us to understand all the important topics and it covers some overview of Data Structure and Algorithm, Design Pattern, OOPS, Object Oriented design for a realtime problem, DBMS (SQL and NOSQL), Network, Problem Solving and System Design. I will keep update this repository as I learn. Basic understading of programming language is require to understand the code.
 
 Suggestions and comments are welcome. 
 
@@ -130,6 +130,9 @@ describe not just patterns of objects or classes but also the patterns of commun
 A database management system (DBMS) is system software for creating and managing databases. The DBMS provides users and programmers with a systematic way to create, retrieve, update and manage data.     
 There are many types of database but will consider SQL and NOSQL database.
 
+### Distributed Computing
+
+Distributed computing, a single problem is divided into many parts, and each part is solved by different computers.
 
 
 
