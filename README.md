@@ -134,5 +134,35 @@ There are many types of database but will consider SQL and NOSQL database.
 
 Distributed computing, a single problem is divided into many parts, and each part is solved by different computers.
 
+#### Load Balancer 
+A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications. They improve the overall performance of applications by decreasing the burden on servers associated with managing and maintaining application and network sessions, as well as by performing application-specific tasks.
+Load balancers are generally grouped into two categories: Layer 4 and Layer 7. Layer 4 load balancers act upon data found in network and transport layer protocols (IP, TCP, FTP, UDP). Layer 7 load balancers distribute requests based upon data found in application layer protocols such as HTTP.
+
+##### Types of protocols
+
+  - TCP/IP (Transmission Control Protocol/Internet Protocol)
+  - ARP (Address Resolution Protocol)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - DNS (Domain Name System)
+  - FTP (File Transfer Protocol)
+  - SMTP (Simple mail transport Protocol)
+  - HTTP
+  
+##### Types of Load balancer
+  - Application Load Balancer
+   - HTTP/HTTPS
+  - Network Load Balancer
+   - TCP/SSL
+  - Classic Load Balancer
+   - Transport layer (TCP/SSL) or the application layer (HTTP/HTTPS)
+##### Load Balancer Algorithm
+  - Round robin
+  - Weighted round robin
+  - Least connections
+  - Least response time
+  - IP Hash 
+
+#### OSI model Open Systems Interconnection (OSI) 
+
 
 
