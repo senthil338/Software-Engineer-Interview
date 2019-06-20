@@ -132,5 +132,8 @@ There are many types of database but for an interview presfective consider SQL a
 
 #### Different between SQL and NOSQL
 
-https://github.com/senthil338/coding_interview/blob/master/Images/SQLNOSQL.png
+![alt text][sqlnosql]
+
+[sqlnosql]: https://github.com/senthil338/coding_interview/blob/master/Images/SQLNOSQL.png "SQL vs NOSQL"
+
 
