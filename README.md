@@ -127,4 +127,10 @@ describe not just patterns of objects or classes but also the patterns of commun
 <p name="dbms"></b>
 
 ### DBMS
-A database management system (DBMS) is system software for creating and managing databases. The DBMS provides users and programmers with a systematic way to create, retrieve, update and manage data.
+A database management system (DBMS) is system software for creating and managing databases. The DBMS provides users and programmers with a systematic way to create, retrieve, update and manage data.     
+There are many types of database but for an interview presfective consider SQL and NOSQL database.
+
+#### Different between SQL and NOSQL
+
+
+
