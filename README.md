@@ -21,8 +21,8 @@ Suggestions and comments are welcome.
    * [Design Pattern](#designpattern)
    * [DBMS](#dbms)
    * [Operating System](#os)
+   * [Computing](#computing)
    * [System Design](#design)
-   * [Miscellaneous](#misc)
 * [References](#ref)
 <br/>
 <h1> <b name="tech">Technical Interview Questions</b> </h1>
