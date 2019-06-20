@@ -164,5 +164,9 @@ Load balancers are generally grouped into two categories: Layer 4 and Layer 7. L
 
 #### OSI model Open Systems Interconnection (OSI) 
 
+Reference-style: 
+![alt text][osimodel]
+
+[osimodel]: https://github.com/senthil338/coding_interview/blob/master/Images/osi-model.png "OSI Model"
 
 
