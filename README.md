@@ -162,10 +162,27 @@ Load balancers are generally grouped into two categories: Layer 4 and Layer 7. L
   - Least response time
   - IP Hash 
 
-#### OSI model Open Systems Interconnection (OSI) 
+##### OSI model Open Systems Interconnection (OSI) 
 
 ![alt text][osimodel]
 
 [osimodel]: https://github.com/senthil338/coding_interview/blob/master/Images/osi-model.png "OSI Model"
 
+##### How internet works
 
+1. Open the browser and type the URL
+2. Browser contacts the DNS server via ISP to find the IP address of URL.
+3. DNS returns back the IP address of the site.
+4. Browser opens TCP connection to the web server.
+5. Browser fetches the html code of the page requested.
+6. Browser renders the HTML in the display window.
+7. Browser terminates the connection when window is closed.
+
+**Uniform Resource Locator (URL) "https://google.com/**
+
+##### Internet Protocol: IP Addresses
+
+Every machine on the Internet has a unique identifying number, called an IP Address. The IP stands for Internet Protocol, which is the language that computers use to communicate over the Internet.
+
+##### Clients and Servers
+Internet servers make the Internet possible. All of the machines on the Internet are either servers or clients. The machines that provide services to other machines are servers. And the machines that are used to connect to those services are clients.
