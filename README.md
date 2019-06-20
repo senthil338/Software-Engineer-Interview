@@ -14,7 +14,7 @@ Note:- Clicking on each link will navigate us to detail page which contains sour
 
 This Github repository will covers most of the software engineering interview  question and answers , also reference for the questions <b> (leetcode, geeksforgeeks,hackerrank,hackerearth, youtupe etc).</b> , any one have good understanding of object oriented programming  can able to understand the code. I started documenting all together and provide the single source for an interview preparation. This will not cover 100% interview problem but it will help us to understand all the important topics and it covers some overview of Data Structure and Algorithm, Design Pattern, OOPS, Object Oriented design for a realtime problem, DBMS (SQL and NOSQL), Network, Problem Solving and System Design. I will keep update this repository as I learn. Basic understading of programming language is require to understand the code.
 
-Suggestions and comments are welcome. 
+**Suggestions and comments are welcome. **
 
 * [Technical Interview Questions](#tech)
    * [Data Structures and Algorithms](#dsalg)
