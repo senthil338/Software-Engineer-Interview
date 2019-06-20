@@ -150,11 +150,11 @@ Load balancers are generally grouped into two categories: Layer 4 and Layer 7. L
   
 ##### Types of Load balancer
   - Application Load Balancer
-   - HTTP/HTTPS
+     - HTTP/HTTPS
   - Network Load Balancer
-   - TCP/SSL
+     - TCP/SSL
   - Classic Load Balancer
-   - Transport layer (TCP/SSL) or the application layer (HTTP/HTTPS)
+     - Transport layer (TCP/SSL) or the application layer (HTTP/HTTPS)
 ##### Load Balancer Algorithm
   - Round robin
   - Weighted round robin
