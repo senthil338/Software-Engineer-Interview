@@ -198,7 +198,9 @@ Internet servers make the Internet possible. All of the machines on the Internet
 
 SOA means that you structure your application by decomposing it into multiple services (most commonly as HTTP services) that can be classified as different types like subsystems or tiers.
 
-    Microservice-based software architectures are actually just modernized implementations of the SOA model. The software components are developed as services to be exposed via APIs, as SOA would require. An API broker mediates access to components and ensures security and governance practices are followed. 
+    Microservice-based software architectures are actually just modernized implementations of the SOA model. The software 
+    components are developed as services to be exposed via APIs, as SOA would require. An API broker mediates access to 
+    components and ensures security and governance practices are followed. 
        
 Service-Oriented Architecture (SOA) is an architectural approach in which applications make use of services available in the network.   
 1.	Service provider: The service provider is the maintainer of the service and the organization that makes available one or more services for others to use. To advertise services, the provider can publish them in a registry, together with a service contract that specifies the nature of the service, how to use it, the requirements for the service, and the fees charged.   
