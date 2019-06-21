@@ -154,6 +154,15 @@ Load balancers are generally grouped into two categories: Layer 4 and Layer 7. L
   - FTP (File Transfer Protocol)
   - SMTP (Simple mail transport Protocol)
   - HTTP
+  - UDP 
+
+##### DIFFERENCE BETWEEN TCP AND UDP
+TCP (Transmission Control Protocol) is connection oriented, whereas UDP (User Datagram Protocol) is connection-less. This means that TCP tracks all data sent, requiring acknowledgment for each octet (generally). UDP does not use acknowledgments at all, and is usually used for protocols where a few lost datagrams do not matter.
+Because of acknowledgments, TCP is considered a reliable data transfer protocol. It ensures that no data is sent to the upper layer application that is out of order, duplicated, or has missing pieces. It can even manage transmissions to attempt to reduce congestion
+   
+    The primary uses for UDP include service advertisements, such as routing protocol updates 
+    and server availability, one-to-many multicast applications, and streaming applications, 
+    such as voice and video, where a lost datagram is far less important than an out-of-order datagram.*
   
 ##### Types of Load balancer
   - Application Load Balancer
