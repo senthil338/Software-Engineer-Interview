@@ -193,3 +193,30 @@ Every machine on the Internet has a unique identifying number, called an IP Addr
 
 ##### Clients and Servers
 Internet servers make the Internet possible. All of the machines on the Internet are either servers or clients. The machines that provide services to other machines are servers. And the machines that are used to connect to those services are clients.
+
+#### Service-Oriented Architecture
+
+SOA means that you structure your application by decomposing it into multiple services (most commonly as HTTP services) that can be classified as different types like subsystems or tiers
+Service-Oriented Architecture (SOA) is an architectural approach in which applications make use of services available in the network.   
+1.	Service provider: The service provider is the maintainer of the service and the organization that makes available one or more services for others to use. To advertise services, the provider can publish them in a registry, together with a service contract that specifies the nature of the service, how to use it, the requirements for the service, and the fees charged.   
+2.	Service consumer: The service consumer can locate the service metadata in the registry and develop the required client components to bind and use the service.   
+##### Guiding Principles of SOA:    
+1.	Standardized service contract: Specified through one or more service description documents.
+2.	Loose coupling: Services are designed as self-contained components, maintain relationships that minimize dependencies on other services.
+3.	Abstraction: A service is completely defined by service contracts and description documents. They hide their logic, which is encapsulated within their implementation.
+4.	Reusability: Designed as components, services can be reused more effectively, thus reducing development time and the associated costs.
+5.	Autonomy: Services have control over the logic they encapsulate and, from a service consumer point of view, there is no need to know about their implementation.
+6.	Discoverability: Services are defined by description documents that constitute supplemental metadata through which they can be effectively discovered. Service discovery provides an effective means for utilizing third-party resources.
+7.	Composability: Using services as building blocks, sophisticated and complex operations can be implemented. Service orchestration and choreography provide a solid support for composing services and achieving business goals.
+##### Advantages of SOA:
+**•	Service reusability:** In SOA, applications are made from existing services.Thus, services can be reused to make many applications.   
+**•	Easy maintenance:** As services are independent of each other they can be updated and modified easily without affecting other services.   
+**•	Platform independent:** SOA allows making a complex application by combining services picked from different sources, independent of the platform.   
+**•	Availability:** SOA facilities are easily available to anyone on request.   
+**•	Reliability:** SOA applications are more reliable because it is easy to debug small services rather than huge codes   
+**•	Scalability:** Services can run on different servers within an environment, this increases scalability   
+##### Disadvantages of SOA:   
+**•	High overhead:** A validation of input parameters of services is done whenever services interact this decreases performance as it increases load and response time.   
+**•	High investment:** A huge initial investment is required for SOA.   
+**•	Complex service management:** When services interact they exchange messages to tasks. The number of messages may go in millions. It becomes a cumbersome task to handle a large number of messages.   
+
