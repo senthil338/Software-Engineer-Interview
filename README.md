@@ -86,7 +86,7 @@ Method for solving a problem
 | [Insertion Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 |  Yes |
 | [Selection Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | No |
 | [Bubble Sort](https://github.com/senthil338/coding_interview/tree/master/CodingPractice/CodingPractice/SortingAlgorithm) |	 | Yes |
-| Binary Search |	O(n log(n)) | N/A  |
+| [Binary Search](https://github.com/senthil338/Software-Engineer-Interview/blob/master/CodingPractice/CodingPractice/DataStructure/BinarySearchTree/BinarySearch.cs) |	O(log(n)) | N/A  |
 | Dijkstra |	O(n<sup>2</sup>) | N/A |
 
   > Most of the time we hear the term called Greed and Naive/Brute-force Algorithm     
