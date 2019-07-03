@@ -234,3 +234,11 @@ Service-Oriented Architecture (SOA) is an architectural approach in which applic
 **•	High investment:** A huge initial investment is required for SOA.   
 **•	Complex service management:** When services interact they exchange messages to tasks. The number of messages may go in millions. It becomes a cumbersome task to handle a large number of messages.   
 
+<p name="ref"></b>
+
+### References:
+   - [wikipedia](https://en.wikipedia.org)
+   - [GeeksforGeeks](https://www.geeksforgeeks.org)
+   - [Medium](https://medium.com)
+   
+
