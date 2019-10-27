@@ -117,7 +117,7 @@ One of the disadvantages of using an array or linked list to store data is the t
 1. Binary Tree 
       - Trees nodes can have zero or more children. However, when a tree has at the most two children, then it’s called binary tree. 
 2. Binary Search Tree 
-      - For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree of the root node should be  the data of the root. The data of all the nodes in the right subtree of the root node should be  the data of the root.
+      - For a binary tree to be a binary search tree, the data of all the nodes in the left sub-tree should be lower than the root node . The data of all the nodes in the right subtree should be higher than the root.
 
 #### Types of Binary Tree
 1. Complete binary tree
