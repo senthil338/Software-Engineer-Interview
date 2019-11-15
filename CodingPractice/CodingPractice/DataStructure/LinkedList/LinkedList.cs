@@ -71,13 +71,13 @@ namespace CodingPractice.DataStructure.LinkedList
                 current = current.Next;
                 currentPosition++;
             }
-           
+
             Node temp = current.Next;
             current.Next = newNode;
             newNode.Next = temp;
 
             return head;
-            
+
 
         }
         #endregion
@@ -178,6 +178,86 @@ namespace CodingPractice.DataStructure.LinkedList
         //    // Recursively convert left subtree  
         //    BToDLL(root.left);
         //}
+        #endregion
+
+        #region Linked list cycle
+        public bool hasCycle(Node head)
+        {
+            Node fast = head;
+            Node slow = head;
+
+            while (fast != null && fast.Next != null)
+            {
+                slow = slow.Next;
+                fast = fast.Next.Next;
+                if (slow == fast)
+                    return true;
+            }
+
+            return false;
+        }
+
+        public static bool detectLoop(Node h)
+        {
+            HashSet<Node> s = new HashSet<Node>();
+            while (h != null)
+            {
+                // If we have already has this node 
+                // in hashmap it means their is a cycle 
+                // (Because you we encountering the 
+                // node second time). 
+                if (s.Contains(h))
+                    return true;
+
+                // If we are seeing the node for 
+                // the first time, insert it in hash 
+                s.Add(h);
+
+                h = h.Next;
+            }
+
+            return false;
+        }
+        #endregion
+
+        #region Pairwise swap
+        /* Function to pairwise swap  
+   elements of a linked list */
+        void pairWiseSwap()
+        {
+            Node temp = head;
+
+            /* Traverse only till there are atleast 2 nodes left */
+            while (temp != null && temp.Next != null)
+            {
+
+                /* Swap the data */
+                int k = temp.Data;
+                temp.Data = temp.Next.Data;
+                temp.Next.Data = k;
+                temp = temp.Next.Next;
+            }
+        }
+
+        /* Recursive function to pairwise swap elements of a linked list */
+        void pairWiseSwap(Node head)
+        {
+            /* There must be at-least two nodes in the list */
+            if (head != null && head.Next != null)
+            {
+                /* Swap the node's data with data of next node */
+                swap(head, head.Next);
+
+                /* Call pairWiseSwap() for rest of the list */
+                pairWiseSwap(head.Next.Next);
+            }
+        }
+        void swap(Node a,Node b)
+        {
+            Node temp = a;
+            a = b;
+            b = temp;
+        }
         #endregion
     }
 }

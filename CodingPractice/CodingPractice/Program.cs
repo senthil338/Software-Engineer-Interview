@@ -8,7 +8,8 @@ using CodingPractice.Amazon;
 using ConsoleApplication1.Amazon;
 using System.Linq;
 using System.Collections.Generic;
-
+using CodingPractice.Coding_Exercises;
+using CodingPractice.OnlineProblem;
 namespace CodingPractice
 {
 
@@ -129,10 +130,13 @@ namespace CodingPractice
         }
 
        
-        static void Main(string[] args)
+        static void Main_1(string[] args)
         {
-           // CodingPractice.DataStructure.DFS_1.Graph.dfs();
-            
+           // CareerCup.GenerateSet();
+          //  Stair_Case.Steps();
+            // CodingPractice.DataStructure.DFS_1.Graph.dfs();
+            AddDigit add = new AddDigit();
+            add.Digit();
             CodingPractice.DataStructure.dfs.DFSWithStack();
             Console.ReadLine();
             //MergeTwoArray.mergeArrayinTheSameArray_1();

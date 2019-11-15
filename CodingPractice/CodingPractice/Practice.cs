@@ -356,6 +356,7 @@ namespace Practice.Books
 
         private static int lcs(string s1,string s2,int i,int j, int[,] array)
         {
+          
             if (i == 0 || j == 0)
             {
                 return 0;

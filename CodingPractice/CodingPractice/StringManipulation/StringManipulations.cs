@@ -267,6 +267,10 @@ namespace CodingPractice.StringManipulation
         #endregion
 
         #region all possible substrings from a string
+        /// <summary>
+        /// https://www.geeksforgeeks.org/program-print-substrings-given-string/
+        /// abc -> a,b,c,ab,bc,                           abc 
+        /// </summary>
         static void possibleSubstring()
         {
             string value = "rstuvwxyz";
@@ -282,5 +286,19 @@ namespace CodingPractice.StringManipulation
             }
         }
         #endregion
+
+        #region Number of substrings of a string
+        /// <summary>
+        /// abc-> a,b,c,ab,bc,abc -> 6
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        static int countNonEmptySubstr(string str)
+        {
+            int n = str.Length;
+            return n * (n + 1) / 2;
+        }
+        #endregion
+
     }
 }

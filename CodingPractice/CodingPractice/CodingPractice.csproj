@@ -31,4 +31,10 @@
     <Compile Remove="StringManipulation_1.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataStructure\AVL\" />
+    <Folder Include="DataStructure\Trie\" />
+    <Folder Include="Backtracking\" />
+  </ItemGroup>
+
 </Project>

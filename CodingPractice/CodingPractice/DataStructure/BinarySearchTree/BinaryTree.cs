@@ -7,6 +7,11 @@ namespace CodingPractice.DataStructure.BinarySearchTree
 {
     public class BinaryTree
     {
+        public static void Main_1(String[] args)
+        {
+            BinaryTree bt = new BinaryTree();
+            bt.findSum(32);
+        }
         public class Node
         {
             public int Data { get; set; }
@@ -40,6 +45,17 @@ namespace CodingPractice.DataStructure.BinarySearchTree
             Add(45);
             Add(55);
 
+        }
+
+        public void Add_1()
+        {
+            Add(20);
+            Add(8);
+            Add(22);
+            Add(4);
+            Add(12);
+            Add(10);
+            Add(14);
         }
         #region is Tree is Binary Search Tree(BST) or not 
         /// <summary>
@@ -100,7 +116,8 @@ namespace CodingPractice.DataStructure.BinarySearchTree
         #region find pair of sum in tree, using stack
         public void findSum(int sum)
         {
-            Add();
+            //Add();
+            Add_1();
             Stack<Node> stack1 = new Stack<Node>();
             Stack<Node> stack2 = new Stack<Node>();
             Node curr1 = root;
@@ -675,7 +692,7 @@ namespace CodingPractice.DataStructure.BinarySearchTree
         #endregion
 
         #region print vertical order
-        public static SortedDictionary<int, List<int>> ht = new SortedDictionary<int, List<int>();
+        public static SortedDictionary<int, List<int>> ht = new SortedDictionary<int, List<int>>();
         public List<int> al;
 
         /// <summary>

@@ -6,6 +6,10 @@ namespace CodingPractice.SortingAlgorithm
 {
     public class MergeTwoArray
     {
+        public static void Main_1(String[] args)
+        {
+            MergeArray();
+        }
         //public static int[] merge(int[] a, int[] b)
         public static int[] merge()
         {
@@ -133,6 +137,37 @@ namespace CodingPractice.SortingAlgorithm
             }
         }
 
+        #endregion
+
+        #region merge two sorted array
+        public static void MergeArray()
+        {
+            int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+            int m = 3;
+            int[] nums2 = { 2, 5, 6 };
+            int n = 3;
+            MergeArray(nums1, m, nums2, n);
+        }
+        private static void MergeArray(int[] num1, int m,int[] num2,int n)
+        {
+            int mergedIndex = m + n - 1;
+            int index1 = m - 1;
+            int index2 = n - 1;
+            while(index2 >= 0)
+            {
+                if(num1[index1] <= num2[index2])
+                {
+                    num1[mergedIndex] = num2[index2];
+                    index2--;
+                }
+                else
+                {
+                    num1[mergedIndex] = num2[index1];
+                    index1--;
+                }
+                mergedIndex--;
+            }
+        }
         #endregion
 
     }
