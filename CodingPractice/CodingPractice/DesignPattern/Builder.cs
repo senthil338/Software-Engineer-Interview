@@ -235,7 +235,7 @@ namespace ConsoleApplication1.DesignPattern.BuilderPattern
 
     public class ClientCallBuilder
     {
-        public static void Main(string[] args)
+        public static void Main_1(string[] args)
         {
             CarBuilder carBuilder = new SedanCarBuilder();
             CarDirector director = new CarDirector(carBuilder);

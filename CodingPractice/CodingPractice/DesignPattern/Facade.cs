@@ -38,7 +38,7 @@ more about it.
     */
     public class FacadeClientTest
     {
-        public static void Main(string[] args)
+        public static void Main_1(string[] args)
         {
             ///Bofre facade implementation
             //ScheduleServer scheduleServer = new ScheduleServer();

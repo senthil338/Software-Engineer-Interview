@@ -32,7 +32,7 @@ namespace ConsoleApplication1.DesignPattern
     */
     public class ObserverPattern
     {
-        public static void Main(String[] args)
+        public static void Main_1(String[] args)
         {
             Subject subject = new CommentaryObject(new List<Observer>(), "Cricket  - Match[June 14 2019]");
             Observer observer = new SMSUsers(subject, "Gokul [Chennai]");

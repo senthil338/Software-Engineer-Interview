@@ -4,8 +4,8 @@ using CodingPractice.StringManipulation;
 using CodingPractice.DesignPattern;
 using CodingPractice.HackerRank;
 using CodingPractice.SortingAlgorithm;
-using CodingPractice.Amazon;
-using ConsoleApplication1.Amazon;
+//using CodingPractice.Amazon;
+//using ConsoleApplication1.Amazon;
 using System.Linq;
 using System.Collections.Generic;
 using CodingPractice.Coding_Exercises;
@@ -135,8 +135,7 @@ namespace CodingPractice
            // CareerCup.GenerateSet();
           //  Stair_Case.Steps();
             // CodingPractice.DataStructure.DFS_1.Graph.dfs();
-            AddDigit add = new AddDigit();
-            add.Digit();
+       
             CodingPractice.DataStructure.dfs.DFSWithStack();
             Console.ReadLine();
             //MergeTwoArray.mergeArrayinTheSameArray_1();
